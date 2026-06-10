@@ -1,0 +1,164 @@
+﻿md_file,slide_id,slide_title,need_image,image_type,query_cn,query_en,layout,reason,priority,avoid,source_preference,manual_review
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,1,第8章 材料大数据、机器学习与智能优化设计,no,,,,,封面页不建议再插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,2,本章学习目标,no,,,,,学习目标页以文字为主,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,3,本章知识主线,yes,diagram,本章知识主线,materials big data machine learning roadmap,center,本章逻辑链条适合路线图,medium,避免过度装饰科技背景,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,4,课堂导入：为什么材料AI不是“直接套模型”？,yes,concept,材料AI失败原因,materials AI pitfalls workflow,right,导入材料AI误区，适合概念图,high,避免空泛AI科技背景,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,5,从材料问题到机器学习问题,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,6,目录,no,,,,,目录页不需要插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,7,8.1 材料数据来源,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,8,8.1 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,9,材料数据的六类来源,yes,diagram,材料数据来源图,materials data sources diagram,center,多源数据关系适合结构图,high,避免遗漏模拟与服役数据,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,10,实验数据：最接近真实材料体系,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,11,实验数据中的元数据,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,12,文献数据：材料AI最常见的数据来源之一,yes,concept,文献数据偏差,materials literature data bias,right,文献数据风险需视觉提醒,medium,避免真实论文图未授权,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,13,数据库数据：标准化程度较高,yes,screenshot,材料数据库界面,materials database interface screenshot,right,数据库概念可用界面辅助理解,medium,避免商业Logo和未授权截图,manual,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,14,DFT数据：小尺度高精度计算来源,yes,diagram,DFT高通量计算,DFT high throughput materials workflow,right,DFT数据来源适合流程示意,medium,避免错误能量单位和流程,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,15,经典MD与AIMD数据,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,16,CALPHAD数据：相平衡与热力学信息,yes,chart,CALPHAD相图示意,CALPHAD phase diagram materials,right,相平衡数据适合相图示意,high,避免真实论文相图未授权,manual,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,17,相场与CA数据：组织演化数据,yes,microstructure,相场组织演化,phase field microstructure evolution,right,组织演化需显微组织辅助理解,high,避免真实论文图未授权,manual,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,18,FLUENT与过程仿真数据,yes,diagram,FLUENT熔池仿真,welding melt pool simulation diagram,right,过程仿真输出需场量示意,high,避免真实商业软件界面版权,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,19,服役数据与工业数据,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,20,多源数据整合的基本结构,yes,diagram,多源材料数据融合,multisource materials data integration,center,多源特征整合适合系统图,high,避免把数据源无条件混合,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,21,样本主键：多源数据整合的核心,no,,,,,该页已有文本结构图，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,22,数据来源与误差的对应关系,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,23,数据来源小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,24,8.2 数据治理：清洗、单位、缺失、异常与可追溯性,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,25,8.2 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,26,数据治理的基本流程,yes,workflow,材料数据治理流程,materials data governance workflow,center,数据治理步骤适合流程图,high,避免缺少版本和日志环节,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,27,字段命名规范,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,28,单位统一：材料数据治理的核心,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,29,成分单位转换：wt.% 到 at.%,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,30,温度和时间变量处理,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,31,缺失值识别,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,32,缺失机制,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,33,缺失值处理原则,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,34,异常值的两种含义,yes,chart,异常值物理判断,materials outlier physical validation,right,异常值需区分错误和发现,medium,避免只用统计规则删点,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,35,Z-score异常值判据,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,36,IQR异常值判据,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,37,多变量异常值：马氏距离,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,38,重复样本与重复测量,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,39,数据泄漏,yes,diagram,材料数据泄漏示意,materials data leakage diagram,center,数据泄漏风险必须图示强调,high,避免随机patch划分误导,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,40,数据版本与可追溯性,yes,workflow,数据可追溯流程,data provenance traceability workflow,center,版本来源关系适合流程图,high,避免缺少原始数据环节,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,41,数据治理日志模板,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,42,8.2 小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,43,8.3 材料描述符：成分、结构、工艺、组织图像与图结构,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,44,8.3 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,45,什么是材料描述符？,yes,concept,材料描述符映射,materials descriptors feature mapping,right,描述符是抽象映射，需图示,high,避免与目标泄漏混淆,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,46,成分向量描述符,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,47,基于元素属性的成分描述符,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,48,元素属性方差和失配,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,49,热力学启发描述符,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,50,工艺描述符,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,51,工艺派生变量,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,52,组织描述符,yes,microstructure,晶粒第二相组织,grain size second phase microstructure,right,组织描述符需真实组织参照,high,避免真实论文图未授权,manual,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,53,图像描述符：传统方法,yes,microstructure,显微组织纹理特征,microstructure texture feature extraction,right,传统图像特征需视觉例子,high,避免无关自然图像纹理,manual,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,54,图像描述符：深度学习方法,yes,diagram,CNN组织图像特征,CNN microstructure feature embedding,center,深度图像描述符适合网络图,high,避免错误卷积层标注,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,55,晶体结构描述符,yes,diagram,晶体结构描述符,crystal structure descriptor diagram,right,晶体结构特征需结构图,high,避免错误晶格结构标注,wikimedia,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,56,图结构表示,yes,diagram,晶体图结构表示,crystal graph representation atoms bonds,center,图结构节点边关系需图示,high,避免周期边界表达错误,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,57,图神经网络消息传递,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,58,描述符标准化,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,59,描述符选择与降维,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,60,描述符小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,61,8.4 监督学习、无监督学习、集成学习与深度学习,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,62,8.4 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,63,监督学习：输入和标签同时已知,yes,diagram,监督学习材料映射,supervised learning materials prediction,center,输入标签关系适合结构图,medium,避免把分类回归混淆,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,64,经验风险最小化,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,65,线性回归：最基础的基线模型,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,66,岭回归与LASSO,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,67,决策树,yes,diagram,决策树材料规则,decision tree materials property prediction,right,决策树规则适合树状图,medium,避免生成不合理材料阈值,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,68,随机森林,yes,diagram,随机森林集成,random forest ensemble learning diagram,right,集成平均思想需图示,medium,避免树模型数量过密,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,69,梯度提升树,yes,diagram,梯度提升树流程,gradient boosting trees workflow,right,残差逐步拟合适合流程图,medium,避免误画为并行平均,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,70,支持向量机,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,71,高斯过程回归,yes,chart,高斯过程不确定性,Gaussian process uncertainty band,center,均值和置信区间需曲线图,high,避免错误置信区间标注,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,72,分类任务,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,73,无监督学习,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,74,PCA降维,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,75,K-means聚类,yes,chart,K均值聚类示意,K-means clustering materials data,center,聚类结果适合二维散点图,medium,避免把聚类当物理相图,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,76,神经网络,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,77,卷积神经网络与组织图像,yes,microstructure,CNN孔洞识别,CNN microstructure pore detection,right,组织图像应用需图像支撑,high,避免真实论文图未授权,manual,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,78,图神经网络与晶体性质预测,yes,diagram,晶体GNN性质预测,crystal graph neural network prediction,center,GNN结构与性质关系需图示,high,避免原子图边关系错误,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,79,训练集、验证集和测试集,yes,diagram,训练验证测试划分,train validation test split diagram,center,数据划分易误用，适合图示,high,避免泄漏流程错误,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,80,交叉验证,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,81,回归评价指标,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,82,分类评价指标,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,83,8.4 小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,84,Python示例：随机森林预测合金硬度,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,85,Python示例：交叉验证与Pipeline,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,86,Python示例：PCA观察材料数据覆盖范围,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,87,8.5 贝叶斯优化、主动学习与小样本材料设计,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,88,8.5 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,89,小样本材料设计的特点,yes,workflow,小样本材料设计,small sample materials design workflow,center,昂贵评价问题需流程导入,high,避免空泛优化箭头,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,90,代理模型,yes,diagram,代理模型材料优化,surrogate model materials optimization,center,代理模型概念需结构图,high,避免把代理模型等同实验,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,91,高斯过程预测,yes,chart,高斯过程预测分布,Gaussian process posterior prediction,center,预测均值与方差需曲线图,high,避免错误不确定性含义,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,92,探索与利用,yes,concept,探索利用权衡,exploration exploitation tradeoff,right,探索利用矛盾需直观图示,high,避免只强调最高均值,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,93,置信上界UCB,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,94,期望改进EI,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,95,主动学习,yes,workflow,主动学习闭环,active learning materials loop,center,主动学习本质为闭环选择,high,避免缺少人工实验反馈,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,96,贝叶斯优化与主动学习的区别,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,97,约束贝叶斯优化,yes,diagram,约束贝叶斯优化,constrained Bayesian optimization materials,center,约束优化需候选空间示意,high,避免忽略成分守恒约束,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,98,多目标优化,yes,chart,多目标材料优化,multi objective materials optimization,center,多目标权衡适合目标空间图,high,避免单目标最优误导,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,99,Pareto最优,yes,chart,Pareto前沿示意,Pareto front materials design,center,Pareto概念需要二维图形,high,避免支配关系标注错误,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,100,小样本优化的工作流,yes,workflow,材料优化闭环,Bayesian optimization materials closed loop,center,闭环步骤适合流程图,high,避免缺少数据更新环节,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,101,候选空间设计,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,102,8.5 小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,103,Python示例：高斯过程回归,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,104,Python示例：UCB采集函数,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,105,8.6 物理约束机器学习、可解释AI与不确定性量化,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,106,8.6 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,107,为什么需要物理约束？,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,108,常见物理约束,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,109,物理约束损失函数,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,110,可解释AI：为什么模型这样预测？,yes,diagram,可解释AI材料预测,explainable AI materials prediction,center,解释方法关系适合结构图,high,避免把重要性当因果性,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,111,特征重要性,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,112,SHAP思想,yes,chart,SHAP特征贡献图,SHAP feature contribution plot,center,SHAP贡献适合可视化展示,medium,避免具体数值伪造,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,113,不确定性来源,yes,diagram,材料AI不确定性,materials AI uncertainty sources,center,不确定性来源适合分类图,high,避免混淆噪声与认知不确定性,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,114,贝叶斯不确定性,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,115,集成模型不确定性,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,116,外推检测,yes,chart,外推检测示意,extrapolation detection materials model,center,训练域外预测需二维示意,high,避免把外推预测画成高可信,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,117,因果与相关,yes,diagram,工艺组织性能因果链,process microstructure property causal chain,center,因果链需区别相关与机制,high,避免将相关性画成确定因果,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,118,模型卡与数据卡,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,119,8.6 小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,120,Python示例：置换特征重要性,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,121,8.7 案例：合金成分—工艺—组织—性能代理模型构建与优化,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,122,案例目标,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,123,案例流程图,yes,workflow,合金代理模型流程,alloy surrogate model workflow,center,案例流程适合整页流程图,high,避免缺少不确定性和验证,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,124,第一步：定义输入输出,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,125,第二步：数据清洗,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,126,第三步：构造派生特征,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,127,第四步：模型训练,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,128,第五步：模型解释,yes,chart,模型特征解释,materials model feature importance,right,模型解释需展示特征贡献,medium,避免把重要性解释为因果,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,129,第六步：候选材料优化,yes,diagram,候选材料优化,candidate materials optimization space,center,候选空间与UCB需图示,high,避免推荐不可制造成分,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,130,案例风险分析,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,131,8.7 小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,132,综合代码一：构造简化合金数据集,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,133,综合代码二：派生特征与训练模型,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,134,综合代码三：候选空间与UCB推荐,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,135,材料数据与普通数据的差异,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,136,材料AI建模前的三问,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,137,实验数据进入AI的最低要求,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,138,文献数据整理建议,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,139,DFT数据作为机器学习特征,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,140,MD数据作为机器学习特征,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,141,CALPHAD特征的价值,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,142,FLUENT特征的价值,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,143,组织图像建模风险,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,144,小样本模型可靠性,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,145,外推风险控制,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,146,物理先验的引入方式,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,147,智能优化的正确使用方式,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,148,多目标材料设计,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,149,课程应用场景一：高强钢设计,yes,microstructure,高强钢组织特征,high strength steel microstructure,right,高强钢案例需组织图辅助,medium,避免真实论文图未授权,manual,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,150,课程应用场景二：增材制造合金,yes,diagram,增材制造数据链,additive manufacturing process data chain,center,AM过程特征适合数据链图,high,避免商业设备Logo,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,151,课程应用场景三：功能材料筛选,yes,workflow,功能材料高通量筛选,functional materials screening workflow,center,筛选流程适合工作流图,high,避免把DFT结果当实验结论,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,152,本章方法与前面章节的关系,yes,diagram,多尺度数据关系,multiscale materials data relationship,center,本章与前序章节关系需图示,medium,避免章节编号关系错误,generated,yes
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,153,本章总结与Python编程作业,no,,,,,课堂练习或作业页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,154,本章知识结构回顾,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,155,本章关键概念速记,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,156,课堂讨论题,no,,,,,课堂练习或作业页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,157,本章Python编程作业,no,,,,,课堂练习或作业页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,158,作业具体要求,no,,,,,课堂练习或作业页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,159,作业参考代码框架一：读取与特征构造,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,160,作业参考代码框架二：模型比较,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,161,作业参考代码框架三：候选推荐,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,162,作业评价标准,no,,,,,课堂练习或作业页不建议插图,low,not needed,,no
+第8章_材料大数据机器学习与智能优化设计_150页_Marp.md,163,第8章结束,no,,,,,小结或结束页不建议插图,low,not needed,,no

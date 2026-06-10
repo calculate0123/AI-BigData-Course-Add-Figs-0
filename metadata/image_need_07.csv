@@ -1,0 +1,124 @@
+﻿md_file,slide_id,slide_title,need_image,image_type,query_cn,query_en,layout,reason,priority,avoid,source_preference,manual_review
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,1,第7章 知识库、知识图谱与检索增强生成（RAG）,no,,,,,封面或结束页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,2,目录,no,,,,,目录页不需要插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,3,本章学习目标,no,,,,,学习目标页以文字为主,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,4,本章知识梯度,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,5,第7章内容安排总览,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,6,为什么第7章安排在第6章之后？,yes,workflow,RAG证据约束流程,retrieval augmented generation evidence workflow,center,解释第6章到第7章的技术衔接,high,避免把RAG画成模型微调,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,7,数据、信息、知识、智慧,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,8,7.1 知识表示、专家系统与知识工程,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,9,7.1 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,10,什么是知识表示？,yes,concept,知识表示对象,knowledge representation facts rules constraints,right,知识表示对象抽象，适合概念图,medium,避免空泛科技背景,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,11,知识表示的基本要求,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,12,产生式规则,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,13,框架表示,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,14,语义网络,yes,diagram,语义网络材料关系,semantic network materials relationships,center,节点关系适合用网络图展示,high,避免关系方向和术语错误,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,15,本体：概念层面的约束,yes,diagram,材料领域本体层级,materials ontology hierarchy diagram,center,本体层级和关系需结构化呈现,high,避免概念层和实例层混淆,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,16,专家系统的基本结构,yes,diagram,专家系统结构图,expert system architecture diagram,center,专家系统组件关系适合框图,high,避免推理机与知识库关系错误,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,17,专家系统与机器学习的差异,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,18,知识工程流程,yes,workflow,知识工程流程,knowledge engineering workflow,center,知识工程步骤适合流程图,high,避免缺少验证和维护环节,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,19,材料知识工程的典型对象,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,20,7.1 小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,21,7.2 知识图谱：实体、关系、属性与推理 △,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,22,7.2 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,23,实体、关系与属性,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,24,三元组表示,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,25,模式层与实例层,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,26,RDF三元组思想,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,27,图数据库与关系数据库的差异,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,28,知识图谱构建流程,yes,workflow,知识图谱构建流程,knowledge graph construction workflow,center,构建流程需展示连续步骤,high,避免实体抽取与入库顺序错误,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,29,实体抽取：从文本到结构,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,30,关系抽取：从句子到边,yes,diagram,关系抽取示意,relation extraction materials text,right,文本到关系边转换较抽象,medium,避免把相关性直接画成果因,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,31,实体对齐与消歧,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,32,单位统一与属性规范,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,33,图谱查询：邻居查询,yes,diagram,图谱邻居查询,knowledge graph neighbor query,right,邻居查询适合图结构展示,medium,避免节点边方向错误,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,34,图谱推理：路径推理,yes,diagram,图谱路径推理,knowledge graph path reasoning,center,多跳影响链需用路径图说明,high,避免将候选路径当成因果证明,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,35,图谱推理：规则推理,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,36,知识图谱在材料科学中的价值,yes,concept,材料知识图谱价值,materials knowledge graph applications,right,应用价值多元，适合概念图,medium,避免商业Logo和泛化宣传图,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,37,知识图谱的局限,yes,diagram,混合知识系统,knowledge graph vector database hybrid,center,多系统组合关系适合架构图,medium,避免组件职责混乱,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,38,7.2 小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,39,7.3 向量数据库、文本嵌入与相似性检索,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,40,7.3 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,41,关键词检索的特点,yes,diagram,关键词语义检索对比,keyword search semantic search comparison,right,两类检索差异需视觉对比,high,避免把语义检索画成精确匹配,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,42,词袋模型,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,43,TF-IDF 表示,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,44,BM25 的基本思想,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,45,文本嵌入：从词频到语义向量,yes,diagram,文本嵌入向量空间,text embedding vector space,center,文本到向量映射较抽象,high,避免二维示意误导为真实坐标,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,46,嵌入向量的直观理解,yes,chart,嵌入语义空间散点,semantic embedding space scatter,right,语义接近关系适合散点示意,medium,避免真实数据来源不明,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,47,余弦相似度,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,48,欧氏距离与余弦相似度,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,49,向量数据库的作用,yes,diagram,向量数据库检索,vector database similarity search,center,向量库作用需展示检索链路,high,避免商业数据库Logo,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,50,元数据为什么重要？,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,51,近似最近邻检索,yes,diagram,近似最近邻索引,approximate nearest neighbor index,right,ANN索引原理较抽象,medium,避免过度复杂算法细节,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,52,稀疏检索与稠密检索,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,53,Python 示例：TF-IDF 检索,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,54,检索结果不等于答案,yes,concept,检索片段到答案,retrieved evidence answer generation,right,需区分相关片段和最终答案,high,避免把检索结果等同答案,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,55,7.3 小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,56,7.4 RAG基本流程：切分、嵌入、检索、重排、生成 △★,yes,workflow,RAG基本流程,retrieval augmented generation pipeline,center,本节核心流程，强烈建议图示,high,避免漏掉检索和证据环节,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,57,7.4 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,58,RAG 与微调的区别,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,59,RAG 的入库阶段,yes,workflow,RAG文档入库,RAG document ingestion pipeline,center,入库阶段步骤清晰适合流程图,high,避免缺少元数据和向量库,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,60,RAG 的问答阶段,yes,workflow,RAG问答阶段,RAG question answering workflow,center,问答阶段需展示检索到生成,high,避免把重排和生成顺序画错,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,61,文档解析,yes,diagram,PDF文档解析,scientific PDF parsing pipeline,right,PDF解析难点适合流程示意,medium,避免真实论文版面未授权,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,62,切分 chunk 的基本原则,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,63,chunk size 与 overlap,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,64,嵌入与索引,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,65,top-k 检索,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,66,元数据过滤,yes,diagram,元数据过滤检索,metadata filtering vector search,center,先过滤再检索需图示说明,medium,避免字段逻辑错误,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,67,重排 reranking,yes,diagram,RAG重排流程,RAG reranking process,right,重排过程抽象，适合示意图,medium,避免把重排画成重新训练,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,68,提示词构造,yes,diagram,证据约束提示词,evidence grounded prompt template,center,提示词结构适合模块框图,high,避免错误引用编号示意,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,69,生成阶段,yes,workflow,证据约束生成,evidence grounded answer generation,right,强调基于证据生成和拒答,high,避免自由生成无证据答案,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,70,RAG 最小闭环,yes,workflow,RAG最小闭环,minimal RAG workflow loop,center,闭环流程是RAG核心概念,high,避免漏掉来源显示步骤,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,71,Python 示例：最小检索器,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,72,Python 示例：构造 RAG 提示词,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,73,RAG 的典型错误类型,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,74,RAG 参数调节,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,75,面向材料文献的 RAG 特别要求,yes,diagram,材料文献RAG要求,materials literature RAG requirements,center,材料RAG条件多，适合框图,high,避免忽略单位和实验条件,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,76,7.4 小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,77,7.5 材料文献知识库与实验室知识管理,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,78,7.5 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,79,材料文献知识库的对象,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,80,材料知识库的元数据字段,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,81,实验室知识库的数据类型,yes,diagram,实验室知识类型,laboratory knowledge management data types,center,实验室知识对象适合分类图,medium,避免涉及真实敏感数据截图,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,82,实验记录的结构化模板,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,83,计算数据知识库,yes,diagram,模拟数据可复现,computational materials data provenance,right,计算数据需体现版本和溯源,medium,避免具体软件Logo堆砌,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,84,面向材料的知识库架构,yes,diagram,材料知识库架构,materials knowledge base architecture,center,知识库架构复杂，强烈建议图示,high,避免组件职责和箭头错误,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,85,文献知识库与知识图谱结合,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,86,课程案例：焊接高氮钢知识库,yes,workflow,高氮钢知识库,high nitrogen steel knowledge base,center,材料案例需展示知识对象关系,high,避免专业关系与相图判断错误,manual,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,87,课程案例：相场模拟知识库,yes,workflow,相场模拟知识库,phase field simulation knowledge base,center,相场知识对象适合流程图,high,避免相场参数和方程关系错误,manual,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,88,实验室知识管理的权限设计,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,89,版本管理,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,90,数据治理原则,yes,diagram,数据治理生命周期,data governance lifecycle materials,center,治理原则适合生命周期图,medium,避免合规流程过度简化,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,91,7.5 小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,92,7.6 知识库回答的证据追踪与可靠性评价 ★,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,93,7.6 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,94,证据追踪的基本要求,yes,diagram,证据追踪结构,evidence traceability structure,right,证据追踪要素需结构化展示,high,避免引用与证据错配,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,95,可靠性评价维度,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,96,忠实性 faithfulness,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,97,相关性 relevance,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,98,完整性 completeness,yes,concept,条件完整性检查,completeness conditions materials evidence,right,材料结论条件性需视觉强调,medium,避免把完整性画成单一指标,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,99,引用核验,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,100,伪引用与错引,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,101,人类审核流程,yes,workflow,人工审核流程,human audit workflow RAG,center,审核步骤适合流程图,high,避免省略专业判断和版本记录,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,102,材料知识库回答审核表,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,103,RAG 系统评估集,yes,chart,RAG评估集类型,RAG evaluation dataset types,center,评估题型适合图表化展示,medium,避免题型与指标混淆,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,104,证据不足时的合格回答,yes,concept,证据不足拒答,insufficient evidence abstention RAG,right,拒答能力需通过对比图理解,high,避免鼓励无证据猜测,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,105,可靠 RAG 的设计原则,yes,diagram,可靠RAG设计原则,reliable RAG design principles,center,设计原则较多，适合结构图,high,避免空泛科技背景,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,106,7.6 小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,107,本章综合流程图,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,108,本章核心公式回顾,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,109,本章核心概念对照,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,110,课堂讨论 1：知识图谱还是向量检索？,no,,,,,课堂讨论或作业页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,111,课堂讨论 2：回答是否可靠？,no,,,,,课堂讨论或作业页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,112,Python 作业：构建一个迷你材料 RAG 检索器,no,,,,,课堂讨论或作业页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,113,作业代码骨架,no,,,,,该页为代码或模板页，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,114,作业扩展要求,no,,,,,课堂讨论或作业页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,115,本章结束语,no,,,,,封面或结束页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,116,参考资料与延伸阅读,no,,,,,课堂讨论或作业页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,117,Q & A,no,,,,,封面或结束页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,118,附录 A：材料知识库命名规范,no,,,,,课堂讨论或作业页不建议插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,119,附录 B：知识库最小字段模板,no,,,,,该页为代码或模板页，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,120,附录 C：RAG 提示词模板,no,,,,,该页为代码或模板页，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,121,附录 D：知识图谱三元组模板,no,,,,,该页为代码或模板页，暂不插图,low,not needed,,no
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,122,附录 E：RAG 答案失败案例,yes,concept,RAG失败案例,RAG failure modes citations,right,失败类型需可视化警示,medium,避免夸张警示图和无关图标,generated,yes
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md,123,附录 F：课程项目建议,no,,,,,课堂讨论或作业页不建议插图,low,not needed,,no

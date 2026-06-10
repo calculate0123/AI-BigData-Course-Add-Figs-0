@@ -1,0 +1,130 @@
+﻿md_file,slide_id,slide_title,need_image,image_type,query_cn,query_en,layout,reason,priority,avoid,source_preference,manual_review
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,1,第6章 生成式AI、大语言模型与提示工程,no,,,,,封面或结束页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,2,目录,no,,,,,目录页不需要插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,3,本章学习目标,no,,,,,学习目标页以文字为主,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,4,本章知识梯度,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,5,从“分析式 AI”到“生成式 AI”,yes,concept,分析式生成式对比,analytic AI generative AI comparison,right,概念转折明显，适合对比图,high,避免空泛科技背景和卡通机器人,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,6,本章的教学逻辑,yes,workflow,生成验证审核流程,generative AI validation audit workflow,center,本章主线适合流程图展示,high,避免复杂公式和错误文字,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,7,第6章内容安排总览,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,8,关键术语预告,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,9,本章与前后章节的关系,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,10,6.1 生成式AI概述：VAE、GAN、扩散模型,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,11,6.1 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,12,判别式模型与生成式模型,yes,concept,判别生成模型对比,discriminative generative model comparison,right,两类模型差异需视觉对比,high,避免概率关系画错,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,13,生成式 AI 的基本任务,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,14,生成式模型的概率视角,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,15,生成式模型的共同难点,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,16,三类典型生成模型,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,17,VAE：从数据到潜空间,yes,diagram,VAE 编码解码结构,variational autoencoder latent space diagram,center,VAE结构适合模型框图,high,避免潜变量和解码关系错误,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,18,VAE 的目标函数：ELBO,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,19,VAE 在材料图像中的直观理解,yes,concept,组织图像潜空间,microstructure image latent space,right,材料图像变化需潜空间示意,medium,避免真实论文图未授权,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,20,VAE 的材料案例思路,yes,workflow,VAE 组织生成流程,VAE microstructure generation workflow,center,材料案例流程适合图示,high,避免伪造真实显微组织图,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,21,GAN：生成器与判别器的博弈,yes,diagram,GAN 对抗结构,GAN generator discriminator architecture,center,生成器判别器关系需框图,high,避免网络箭头方向错误,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,22,GAN 的目标函数,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,23,GAN 的优点与风险,yes,concept,GAN 生成风险,GAN microstructure generation risks,right,优点风险并列，适合警示图,medium,避免夸大生成图真实性,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,24,模式崩塌：GAN 的典型问题,yes,diagram,GAN 模式崩塌,GAN mode collapse illustration,center,模式崩塌抽象，图示更直观,high,避免把多样性变化画反,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,25,扩散模型：从加噪到去噪,yes,workflow,扩散模型去噪过程,diffusion model denoising process,center,加噪去噪过程适合序列图,high,避免噪声过程方向错误,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,26,扩散模型的正向加噪过程,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,27,扩散模型的去噪学习,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,28,扩散模型为何重要,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,29,条件生成：让生成服从约束,yes,diagram,条件生成约束图,conditional generative model constraints,center,条件约束生成需结构示意,high,避免忽略材料约束,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,30,生成式 AI 的评价维度,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,31,6.1 小结,no,,,,,小结页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,32,6.2 大语言模型基本原理与能力边界 △,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,33,6.2 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,34,语言模型的基本目标,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,35,Token：语言模型的基本单位,yes,concept,语言模型分词示意,large language model tokenization,right,token概念适合分词示意,medium,避免商业Logo和具体平台界面,generated,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,36,嵌入：把 token 变成向量,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,37,上下文窗口,yes,diagram,上下文窗口示意,large language model context window,right,上下文窗口需空间范围图示,medium,避免错误长度数值标注,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,38,Transformer 的核心：注意力机制,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,39,注意力机制的直观解释,yes,concept,注意力材料句子,attention mechanism materials sentence,center,注意力关联适合可视化说明,medium,避免暗示严格因果关系,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,40,多头注意力,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,41,预训练：从大规模文本中学习语言规律,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,42,指令微调与对齐,yes,workflow,预训练微调对齐,pretraining instruction tuning alignment,center,模型训练阶段适合流程图,high,避免把流程顺序画错,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,43,LLM 的能力来源,yes,diagram,LLM 能力来源,large language model capability sources,center,能力来源多因素需结构图,medium,避免拟人化过度,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,44,LLM 不是严格意义的知识库,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,45,LLM 的能力边界：事实性,yes,concept,LLM 事实幻觉,LLM hallucination factual errors,right,事实性风险需警示图,high,避免真实论文图未授权,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,46,LLM 的能力边界：数值与计算,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,47,LLM 的能力边界：材料科学专业性,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,48,温度参数与生成随机性,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,49,课堂演示：温度对采样的影响,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,50,LLM 输出的三类使用方式,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,51,6.2 小结,no,,,,,小结页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,52,6.3 提示工程：角色、任务、约束、格式与示例 △★,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,53,6.3 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,54,提示工程的基本结构,yes,workflow,提示工程结构,prompt engineering structure template,center,提示结构适合任务模板图,high,避免写成工具广告,generated,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,55,从坏提示到好提示,yes,diagram,好坏提示对比,good bad prompt comparison,right,示例对比适合左右图示,medium,避免虚构论文内容,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,56,角色设定：不是装饰，而是限定视角,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,57,任务描述：动词要具体,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,58,背景信息：避免模型默认假设,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,59,约束条件：明确边界,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,60,输出格式：提高可用性,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,61,示例提示：Few-shot 思想,no,,,,,该页已有流程文本，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,62,提示模板：文献摘要,no,,,,,该页已有流程文本，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,63,提示模板：代码生成,no,,,,,该页已有流程文本，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,64,提示模板：实验方案设计,no,,,,,该页已有流程文本，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,65,提示模板：审稿式检查,no,,,,,该页已有流程文本，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,66,提示工程中的负面约束,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,67,分步提示：复杂任务拆解,yes,workflow,复杂提示拆解,stepwise prompt decomposition workflow,center,分步提示适合流程化展示,medium,避免步骤遗漏,generated,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,68,结构化输出：JSON 与表格,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,69,课堂练习：改写提示,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,70,6.3 小结,no,,,,,小结页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,71,6.4 LLM在文献阅读、代码生成、实验方案设计中的应用,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,72,6.4 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,73,文献阅读：适合让 LLM 做什么？,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,74,文献阅读工作流,yes,workflow,LLM 文献阅读流程,LLM literature review workflow,center,文献核验流程需图示,high,避免伪造数据库截图,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,75,文献矩阵模板,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,76,LLM 辅助综述写作的边界,yes,concept,LLM 综述边界,LLM literature review boundaries,right,辅助与不可替代边界需强调,medium,避免暗示可替代人工阅读,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,77,代码生成：适合场景,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,78,代码生成工作流,yes,workflow,代码生成验证流程,LLM code generation verification,center,代码生成需运行验证流程,high,避免只强调自动生成,generated,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,79,课堂示例：生成最小数据分析脚本,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,80,代码审核提示,no,,,,,该页已有流程文本，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,81,实验方案设计：LLM 的辅助价值,yes,concept,LLM 实验方案辅助,LLM experimental design assistant,right,实验辅助边界需视觉引入,medium,避免超出设备安全范围暗示,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,82,实验方案设计流程,yes,workflow,实验方案设计流程,materials experiment design workflow,center,方案设计流程适合图示,high,避免给出危险实验细节,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,83,材料实验方案提示示例,no,,,,,该页已有流程文本，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,84,LLM 在科研流程中的位置,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,85,6.4 小结,no,,,,,小结页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,86,6.5 材料科学中的生成式AI：结构生成、组织图像生成、合成路线生成,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,87,6.5 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,88,材料生成任务的特殊性,yes,concept,材料生成约束,materials generative AI constraints,center,多重材料约束需图示,high,避免违反物理化学约束,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,89,结构生成：问题定义,yes,diagram,材料结构生成,crystal structure generation constraints,center,结构生成需候选结构示意,high,避免错误晶体结构和键长,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,90,晶体结构表示方式,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,91,结构生成的验证流程,yes,workflow,结构生成验证,crystal structure validation workflow,center,多级验证流程适合图示,high,避免将生成结果当验证结果,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,92,组织图像生成：应用场景,yes,microstructure,组织图像生成,synthetic microstructure image generation,right,显微组织生成需专业示意,high,避免真实论文图未授权,manual,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,93,组织图像生成的评价指标,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,94,组织图像生成的工作流,yes,workflow,生成组织审核流程,synthetic microstructure validation workflow,center,生成图像审核流程需图示,high,避免冒充真实实验图,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,95,合成路线生成：任务特点,yes,workflow,合成路线生成,materials synthesis route generation,center,合成路线是约束流程任务,medium,避免危险实验参数和未核验路线,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,96,合成路线生成提示模板,no,,,,,该页已有流程文本，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,97,材料生成式 AI 的闭环,yes,workflow,材料生成闭环,materials generative AI closed loop,center,候选生成到验证适合闭环图,high,避免省略高保真验证环节,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,98,材料科学中的多约束生成,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,99,生成式 AI 与材料基因工程,yes,diagram,生成AI材料基因,generative AI materials genome engineering,center,需展示候选生成模块位置,medium,避免夸大替代材料基因工程,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,100,6.5 小结,no,,,,,小结页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,101,6.6 大模型幻觉、引用核验与人类审核 ★,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,102,6.6 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,103,什么是幻觉？,yes,concept,大模型幻觉类型,large language model hallucination types,center,幻觉类型适合分类示意,high,避免生成虚假引用示例,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,104,幻觉产生的原因,yes,diagram,幻觉产生原因,LLM hallucination causes diagram,center,多原因机制适合因果图,medium,避免单因果误导,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,105,科研引用幻觉的典型表现,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,106,引用核验三步法,yes,workflow,引用核验三步法,citation verification workflow,center,核验流程适合步骤图,high,避免出现虚假DOI,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,107,文献核验记录表,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,108,人类审核：责任不能转移给 AI,yes,concept,科研人类审核,human oversight scientific AI,right,责任边界需视觉强调,high,避免弱化作者责任,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,109,LLM 输出审核清单,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,110,幻觉防控策略,yes,workflow,幻觉防控流程,AI hallucination prevention workflow,center,防控策略适合流程图,high,避免只依赖提示技巧,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,111,科研写作中的合规用法,yes,concept,科研合规用法,responsible AI research writing,right,合规与高风险用法需区分,medium,避免鼓励未核验引用,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,112,课堂案例：识别不可靠回答,no,,,,,该页已有流程文本，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,113,人机协同的正确关系,yes,workflow,人机协同科研闭环,human AI scientific workflow,center,人机协同适合闭环图,high,避免把AI画成责任主体,generated,yes
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,114,6.6 小结,no,,,,,小结页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,115,本章总结与 Python 编程作业,no,,,,,小结页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,116,本章知识结构回顾,no,,,,,小结页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,117,本章核心公式,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,118,本章核心公式（续）,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,119,本章易错点,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,120,Python 作业：温度采样与简单文本生成,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,121,作业参考代码框架,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,122,作业提交要求,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,123,课后思考题,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,124,结束页,no,,,,,封面或结束页不建议插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,125,附录：第6章教学组织建议,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,126,3学时教学建议,no,,,,,附录说明页暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,127,重点与难点,no,,,,,附录说明页暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,128,思政与科研规范融入点,no,,,,,附录说明页暂不插图,low,not needed,,no
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md,129,与材料科学案例的衔接,no,,,,,文字说明较完整，暂不插图,low,not needed,,no

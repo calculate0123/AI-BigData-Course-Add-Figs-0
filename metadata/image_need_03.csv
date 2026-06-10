@@ -1,0 +1,123 @@
+﻿md_file,slide_id,slide_title,need_image,image_type,query_cn,query_en,layout,reason,priority,avoid,source_preference,manual_review
+第3章_贝叶斯定理与概率思维_100页_Marp.md,1,第3章 贝叶斯定理与概率思维,no,,,,,封面页不建议再插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,2,目录,no,,,,,目录页不需要插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,3,本章学习目标,no,,,,,学习目标页以文字为主,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,4,为什么材料科学需要概率思维？,yes,concept,材料概率不确定性,materials uncertainty probabilistic thinking,right,材料不确定性需要视觉引入,high,避免空泛AI科技背景,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,5,本章知识地图,yes,diagram,贝叶斯知识地图,Bayesian probability concept map,center,本章概念链条适合知识图,medium,避免复杂公式和错误文字,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,6,先给出一个直观例子,yes,workflow,裂纹检测贝叶斯,Bayesian defect detection workflow,center,案例包含先验证据更新流程,high,避免真实检测论文图未授权,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,7,本章的基本符号,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,8,3.1 条件概率、全概率公式与贝叶斯定理,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,9,3.1.1 从随机试验到样本空间,yes,concept,样本空间事件图,sample space event diagram,right,样本空间概念适合集合图,medium,避免过度复杂概率符号,wikimedia,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,10,概率的三个基本性质,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,11,事件关系：交、并、补,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,12,3.1.2 联合概率：两个事件同时发生,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,13,3.1.3 条件概率：已知一个事件后再判断,yes,concept,条件概率维恩图,conditional probability Venn diagram,right,条件概率抽象，图示更直观,medium,避免符号标注错误,wikimedia,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,14,条件概率的教学重点,yes,diagram,反向条件概率,conditional probability inversion diagram,center,易混概念需对比图说明,high,避免把两个条件概率画成相同,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,15,3.1.4 乘法公式,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,16,独立性：是否互相影响？,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,17,3.1.5 全概率公式：把复杂事件分解,yes,diagram,全概率划分图,law of total probability partition,center,样本空间划分适合示意图,high,避免错误集合划分,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,18,全概率公式的材料解释,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,19,3.1.6 贝叶斯定理：反向概率更新,yes,diagram,贝叶斯更新结构,Bayes theorem update diagram,center,贝叶斯公式关系适合结构图,high,避免复杂公式和错误文字,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,20,贝叶斯定理的四个组成部分,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,21,例1：缺陷检测中的基准概率,yes,chart,基准概率误报图,base rate false positive chart,right,低基准概率需频数图辅助,high,避免医学化图示脱离材料,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,22,例1计算：阳性不等于一定有裂纹,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,23,用自然频数解释贝叶斯定理,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,24,课堂讨论：为什么人们容易误判？,no,,,,,课堂讨论页以文字分析为主,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,25,3.1 小结,no,,,,,小结复习页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,26,3.2 先验、似然、后验与证据,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,27,3.2.1 从事件假设到模型参数,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,28,3.2.2 数据集记号,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,29,3.2.3 贝叶斯参数推断公式,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,30,参数贝叶斯公式的解释,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,31,3.2.4 先验：把已有知识写成概率分布,yes,chart,先验分布曲线,Bayesian prior distribution curve,right,先验分布需曲线直观展示,medium,避免过强装饰和错误坐标,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,32,常见先验分布,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,33,3.2.5 似然：数据如何支持参数,yes,chart,似然函数曲线,likelihood function curve,right,似然概念适合曲线说明,medium,避免将似然误作概率密度,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,34,例2：正态误差下的回归似然,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,35,对数似然与平方误差,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,36,3.2.6 证据：为什么需要归一化？,yes,concept,证据归一化面积,Bayesian evidence normalization area,right,归一化含义需面积图解释,medium,避免错误积分标注,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,37,3.2.7 后验：更新后的完整认识,yes,chart,后验分布曲线,posterior distribution curve,right,后验不确定性适合分布图,medium,避免先验后验颜色混乱,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,38,3.2.8 后验预测分布,yes,diagram,后验预测分布,posterior predictive distribution,center,预测分布包含不确定性层级,high,避免把参数区间和预测区间混淆,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,39,贝叶斯流程图,yes,workflow,贝叶斯建模流程,Bayesian modeling workflow,center,该页本身是流程主题,high,避免错误箭头因果关系,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,40,3.2 小结,no,,,,,小结复习页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,41,3.3 贝叶斯思想：从经验知识到数据更新,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,42,3.3.1 频率观点与贝叶斯观点,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,43,3.3.2 贝叶斯更新的核心思想,yes,workflow,贝叶斯顺序更新,Bayesian sequential updating workflow,center,更新过程适合流程图表达,high,避免把旧先验和旧后验混淆,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,44,3.3.3 顺序更新：逐批实验的自然框架,yes,workflow,逐批实验更新,sequential experiment Bayesian update,center,逐批实验更新适合闭环图,high,避免与普通机器学习流程混淆,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,45,例3：Beta-Binomial 缺陷率更新,yes,chart,Beta二项更新,Beta binomial update distribution,right,Beta分布更新适合曲线展示,high,避免错误参数标注,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,46,Beta-Binomial 的后验更新,yes,chart,缺陷率后验曲线,defect rate posterior distribution,right,后验均值和区间需图示,medium,避免将缺陷率超出0到1,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,47,Python案例：缺陷率贝叶斯更新,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,48,代码结果如何解释？,no,,,,,课堂讨论页以文字分析为主,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,49,3.3.4 先验强度：经验影响有多大？,yes,chart,先验强度对比,prior strength comparison,right,先验强弱可由曲线宽度说明,medium,避免错误表达先验强度,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,50,3.3.5 先验敏感性分析,yes,chart,先验敏感性分析,prior sensitivity analysis curves,center,多组先验对比需要曲线图,medium,避免曲线和结论不对应,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,51,3.3.6 贝叶斯不是“用经验压倒数据”,yes,concept,先验数据平衡,prior data balance concept,right,强调先验不能压倒数据,medium,避免把先验画成绝对真理,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,52,3.3.7 材料研究中的经验知识类型,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,53,3.3.8 材料案例：合金强度经验先验,yes,diagram,合金强度先验,alloy strength prior constraint,right,材料经验先验需领域示意,medium,避免不真实材料机制图,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,54,3.3 小结,no,,,,,小结复习页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,55,3.4 最大似然估计与最大后验估计,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,56,3.4.1 为什么需要点估计？,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,57,3.4.2 最大似然估计 MLE,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,58,MLE 的直观解释,yes,chart,最大似然曲线,maximum likelihood curve,right,MLE直观解释适合似然曲线,medium,避免将概率和似然混用,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,59,例4：正态均值的 MLE,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,60,正态均值 MLE 结果,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,61,3.4.3 最大后验估计 MAP,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,62,MAP 的直观解释,yes,diagram,MAP估计结构,maximum posterior estimate diagram,right,MAP需展示数据和先验共同约束,medium,避免遗漏先验项,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,63,例5：正态先验下的 MAP,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,64,正态均值 MAP 结果,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,65,MAP 是加权平均,yes,chart,MAP加权平均,MAP weighted average shrinkage,center,加权平均可用收缩图说明,medium,避免权重方向标错,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,66,3.4.4 MLE 与 MAP 的比较,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,67,3.4.5 MAP 与正则化,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,68,正则化的概率解释,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,69,Python案例：MLE 与 MAP 对比,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,70,如何解释 MLE 与 MAP 的差别？,yes,diagram,MLE MAP对比,MLE MAP comparison diagram,center,两种估计差异适合对比图,medium,避免公式堆砌和错误文字,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,71,3.4.6 不要把 MAP 等同完整贝叶斯,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,72,3.4 小结,no,,,,,小结复习页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,73,3.5 不确定性量化与概率决策,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,74,3.5.1 为什么必须量化不确定性？,yes,concept,预测不确定性区间,prediction uncertainty interval,right,不确定性概念需图形引入,high,避免只画单点预测,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,75,3.5.2 两类不确定性,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,76,3.5.3 参数不确定性,yes,chart,参数后验不确定性,parameter posterior uncertainty,right,参数不确定性适合分布图,medium,避免坐标和单位错误,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,77,3.5.4 预测不确定性,yes,chart,预测分布分解,predictive uncertainty decomposition,center,预测不确定性需要分解图,high,避免混淆噪声与参数不确定性,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,78,3.5.5 置信区间与可信区间,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,79,可信区间定义,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,80,3.5.6 预测区间,yes,chart,预测区间示意,prediction interval uncertainty,right,预测区间比参数区间更直观,medium,避免与可信区间混淆,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,81,3.5.7 概率决策：从预测到行动,yes,chart,阈值概率决策,probabilistic threshold decision,right,阈值决策适合概率面积图,high,避免把概率判断画成确定判断,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,82,3.5.8 损失函数与最优决策,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,83,材料决策中的非对称损失,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,84,3.5.9 校准：概率是否可信？,yes,chart,概率校准曲线,probability calibration reliability diagram,center,校准概念需可靠性曲线,medium,避免无坐标说明的抽象图,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,85,3.5.10 外推风险,yes,diagram,训练域外推风险,extrapolation risk training domain,center,外推风险适合训练域图示,high,避免过度装饰科技背景,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,86,3.5.11 探索与利用,yes,chart,探索利用采集函数,exploration exploitation acquisition function,center,采集函数需展示均值与不确定性,high,避免公式和曲线不匹配,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,87,3.5.12 材料实验中的概率目标,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,88,Python案例：计算超过阈值的概率,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,89,3.5.13 模型可靠性诊断,yes,workflow,模型可靠性诊断,probabilistic model reliability checklist,center,诊断项较多，适合流程清单图,medium,避免商业流程模板感过强,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,90,3.5 小结,no,,,,,小结复习页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,91,3.6 材料小样本问题中的贝叶斯方法,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,92,3.6.1 材料小样本的来源,yes,concept,材料小样本困境,small sample materials dataset,right,小样本来源需直观说明,medium,避免与通用大数据场景混淆,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,93,3.6.2 小样本建模的主要风险,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,94,3.6.3 小样本中的先验价值,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,95,3.6.4 物理约束作为先验,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,96,3.6.5 贝叶斯线性回归用于材料性能预测,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,97,贝叶斯线性回归后验公式,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,98,3.6.6 高斯过程：直接对函数建模,yes,chart,高斯过程回归,Gaussian process regression uncertainty,center,GP核心是均值和置信带,high,避免错误置信带标注,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,99,高斯过程在材料设计中的意义,yes,diagram,GP材料响应面,Gaussian process materials response surface,center,材料设计响应面需图示,high,避免真实论文图未授权,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,100,3.6.7 贝叶斯优化的基本思想,yes,workflow,贝叶斯优化闭环,Bayesian optimization closed loop,center,贝叶斯优化本质是闭环流程,high,避免箭头逻辑错误,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,101,采集函数：平衡探索与利用,yes,chart,UCB采集函数曲线,upper confidence bound acquisition,center,探索利用需曲线图说明,high,避免把均值和采集函数混淆,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,102,3.6.8 小样本分类：组织类别预测,yes,chart,组织分类概率,microstructure classification probability,right,分类不确定性需概率条形图,medium,避免真实显微图未授权,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,103,3.6.9 文献数据中的贝叶斯思路,yes,diagram,文献层级模型,hierarchical Bayesian literature model,center,层级模型关系适合结构图,medium,避免真实文献数据未授权,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,104,3.6.10 多保真材料数据融合,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,105,多保真融合的简化模型,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,106,3.6.11 贝叶斯方法实践流程,yes,workflow,贝叶斯建模实践,Bayesian modeling practice workflow,center,实践流程适合流程图,medium,避免过度复杂工具图标,generated,yes
+第3章_贝叶斯定理与概率思维_100页_Marp.md,107,3.6.12 适合初学者的工具路线,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,108,Python案例：小样本强度的贝叶斯更新,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,109,案例解释：小样本下如何报告结论,no,,,,,该页以公式推导为主，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,110,3.6.13 小样本贝叶斯方法的局限,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,111,3.6 小结,no,,,,,小结复习页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,112,本章总结：一条主线,no,,,,,小结复习页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,113,本章重点与难点,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,114,课堂练习1：检测阳性后的真实缺陷概率,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,115,课堂练习2：Beta 先验更新,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,116,课堂练习3：MLE 与 MAP,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,117,Python编程作业：材料小样本贝叶斯更新,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,118,编程作业要求,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,119,作业提示：可使用的公式,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,120,作业参考代码框架,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,121,延伸阅读与下一章衔接,no,,,,,小结复习页不建议插图,low,not needed,,no
+第3章_贝叶斯定理与概率思维_100页_Marp.md,122,谢谢,no,,,,,小结复习页不建议插图,low,not needed,,no

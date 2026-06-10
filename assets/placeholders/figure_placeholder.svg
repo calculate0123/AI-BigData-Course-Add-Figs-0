@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect x="0" y="0" width="960" height="540" fill="#eef4f1"/>
+  <rect x="24" y="24" width="912" height="492" rx="24" ry="24"
+        fill="#ffffff" stroke="#2f6f5f" stroke-width="6" stroke-dasharray="18 12"/>
+  <text x="480" y="245" text-anchor="middle"
+        font-family="Arial, Microsoft YaHei, sans-serif"
+        font-size="48" font-weight="700" fill="#2f6f5f">
+        IMAGE PLACEHOLDER
+  </text>
+  <text x="480" y="310" text-anchor="middle"
+        font-family="Arial, Microsoft YaHei, sans-serif"
+        font-size="28" fill="#5f756f">
+        replace image_path in image_catalog_XX.csv
+  </text>
+</svg>

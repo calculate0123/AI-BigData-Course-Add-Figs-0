@@ -1,0 +1,114 @@
+﻿md_file,slide_id,slide_title,need_image,image_type,layout,image_path,alt,caption,width,enabled,source,license,notes
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,1,第1章人工智能、大数据与材料科学概论,no,,,,第1章人工智能、大数据与材料科学概论,,720,no,,course-generated,封面页不建议再插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,2,本章学习目标,no,,,,本章学习目标,,720,no,,course-generated,学习目标页以文字为主
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,3,本章知识主线,yes,diagram,center,assets/generated/ch01/ch01_slide_003_diagram.svg,本章概念地图,,440,yes,generated vector infographic,course-generated,概念层级较多，适合概念图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,4,目录,no,,,,目录,,720,no,,course-generated,目录页不需要插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,5,课堂导入：一个材料研发问题,yes,workflow,center,assets/generated/ch01/ch01_slide_005_workflow.svg,材料研发AI流程,,440,yes,generated vector infographic,course-generated,对比传统与AI路径，适合流程图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,6,从材料问题到 AI 问题,no,,,,从材料问题到 AI 问题,,720,no,,course-generated,该页以公式说明为主，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,7,本章关键概念关系,no,,,,本章关键概念关系,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,8,1.1 人工智能的概念、发展与主要学派,no,,,,1.1 人工智能的概念、发展与主要学派,,720,no,,course-generated,章节过渡页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,9,智能的基本含义,no,,,,智能的基本含义,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,10,从人类智能到机器智能,no,,,,从人类智能到机器智能,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,11,人工智能的基本定义,no,,,,人工智能的基本定义,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,12,AI 不是单一技术,yes,diagram,center,assets/generated/ch01/ch01_slide_012_diagram.svg,AI技术谱系,,440,yes,generated vector infographic,course-generated,技术分支多，结构图更清晰
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,13,弱人工智能、强人工智能与超人工智能,no,,,,弱人工智能、强人工智能与超人工智能,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,14,图灵测试与行为主义视角,no,,,,图灵测试与行为主义视角,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,15,人工智能发展简史：孕育阶段,no,,,,人工智能发展简史：孕育阶段,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,16,人工智能发展简史：形成阶段,no,,,,人工智能发展简史：形成阶段,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,17,人工智能发展简史：起伏与复兴,no,,,,人工智能发展简史：起伏与复兴,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,18,人工智能的三大主要学派,no,,,,人工智能的三大主要学派,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,19,符号主义：知识、规则与推理,yes,diagram,right,assets/generated/ch01/ch01_slide_019_diagram.svg,符号推理规则图,,720,yes,generated vector infographic,course-generated,规则推理较抽象，图示更直观
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,20,连接主义：从数据中学习表示,yes,diagram,right,assets/generated/ch01/ch01_slide_020_diagram.svg,神经网络连接图,,720,yes,generated vector infographic,course-generated,连接主义需展示网络结构
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,21,行为主义：环境、行动与反馈,yes,workflow,right,assets/generated/ch01/ch01_slide_021_workflow.svg,强化学习反馈环,,720,yes,generated vector infographic,course-generated,状态行动反馈关系适合流程图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,22,三大学派的互补关系,no,,,,三大学派的互补关系,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,23,人工智能系统的基本组成,yes,diagram,center,assets/generated/ch01/ch01_slide_023_diagram.svg,AI系统组成,,440,yes,generated vector infographic,course-generated,系统组成适合模块化结构图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,24,AI 的核心不是“替代人”，而是“增强人”,no,,,,AI 的核心不是“替代人”，而是“增强人”,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,25,1.1 小结,no,,,,1.1 小结,,720,no,,course-generated,复习或作业页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,26,1.2 大数据的 4V 特征与数据驱动科学,no,,,,1.2 大数据的 4V 特征与数据驱动科学,,720,no,,course-generated,章节过渡页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,27,从数据到大数据,no,,,,从数据到大数据,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,28,大数据的定义,no,,,,大数据的定义,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,29,4V 之一：Volume 海量性,no,,,,4V 之一：Volume 海量性,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,30,4V 之二：Velocity 高速性,yes,workflow,right,assets/generated/ch01/ch01_slide_030_workflow.svg,实时数据流处理,,720,yes,generated vector infographic,course-generated,高速性需体现数据流动过程
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,31,4V 之三：Variety 多样性,yes,concept,right,assets/generated/ch01/ch01_slide_031_concept.svg,多模态数据类型,,720,yes,generated vector infographic,course-generated,数据类型多样，视觉化更易区分
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,32,4V 之四：Value 价值性,yes,workflow,right,assets/generated/ch01/ch01_slide_032_workflow.svg,数据价值挖掘,,720,yes,generated vector infographic,course-generated,价值提取适合漏斗流程图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,33,4V 之间的关系,no,,,,4V 之间的关系,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,34,数据驱动科学的基本思想,no,,,,数据驱动科学的基本思想,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,35,科学研究的四种范式,yes,diagram,center,assets/generated/ch01/ch01_slide_035_diagram.svg,科学四范式,,440,yes,generated vector infographic,course-generated,四种范式适合并列框架图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,36,数据驱动与物理驱动的互补,no,,,,数据驱动与物理驱动的互补,,720,no,,course-generated,该页以公式说明为主，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,37,材料数据的特殊困难,yes,concept,right,assets/generated/ch01/ch01_slide_037_concept.svg,材料数据难点,,720,yes,generated vector infographic,course-generated,材料数据问题多，图示便于归纳
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,38,数据质量决定模型上限,no,,,,数据质量决定模型上限,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,39,数据驱动材料研究的基本流程,yes,workflow,center,assets/generated/ch01/ch01_slide_039_workflow.svg,数据驱动材料流程,,440,yes,generated vector infographic,course-generated,该页解释流程，图示有助理解
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,40,一个简单例子：强度预测,no,,,,一个简单例子：强度预测,,720,no,,course-generated,该页以公式说明为主，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,41,1.2 小结,no,,,,1.2 小结,,720,no,,course-generated,复习或作业页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,42,1.3 人工智能、大数据、云计算与材料基因工程,no,,,,1.3 人工智能、大数据、云计算与材料基因工程,,720,no,,course-generated,章节过渡页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,43,AI、大数据与云计算的分工,no,,,,AI、大数据与云计算的分工,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,44,云计算的基本含义,no,,,,云计算的基本含义,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,45,为什么材料 AI 需要平台化,yes,diagram,center,assets/generated/ch01/ch01_slide_045_diagram.svg,材料AI平台架构,,440,yes,generated vector infographic,course-generated,平台化涉及数据算力模型协同
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,46,材料基因工程的基本思想,yes,diagram,center,assets/generated/ch01/ch01_slide_046_diagram.svg,材料基因工程,,440,yes,generated vector infographic,course-generated,材料基因工程适合框架图表达
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,47,材料“四要素”关系,yes,diagram,center,assets/generated/ch01/ch01_slide_047_diagram.svg,材料四要素关系,,440,yes,generated vector infographic,course-generated,四要素关系需结构化展示
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,48,材料基因工程中的三大支柱,yes,diagram,center,assets/generated/ch01/ch01_slide_048_diagram.svg,计算实验数据三支柱,,440,yes,generated vector infographic,course-generated,三大支柱适合三角结构图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,49,高通量计算与 AI,yes,workflow,center,assets/generated/ch01/ch01_slide_049_workflow.svg,高通量计算流程,,440,yes,generated vector infographic,course-generated,高通量计算具有明显工作流
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,50,高通量实验与 AI,no,,,,高通量实验与 AI,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,51,材料数据库与 AI,yes,screenshot,right,assets/generated/ch01/ch01_slide_051_screenshot.svg,材料数据库界面,,720,yes,generated vector infographic,course-generated,数据库概念需界面实例支撑
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,52,从数据库到知识库,no,,,,从数据库到知识库,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,53,一个材料 AI 闭环,yes,workflow,center,assets/generated/ch01/ch01_slide_053_workflow.svg,材料AI闭环,,440,yes,generated vector infographic,course-generated,闭环迭代需用流程图展示
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,54,技术系统中的角色分工,no,,,,技术系统中的角色分工,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,55,1.3 小结,no,,,,1.3 小结,,720,no,,course-generated,复习或作业页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,56,1.4 现代 AI 技术谱系,no,,,,1.4 现代 AI 技术谱系,,720,no,,course-generated,章节过渡页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,57,AI、机器学习与深度学习的关系,yes,diagram,center,assets/generated/ch01/ch01_slide_057_diagram.svg,AI机器学习深度学习,,440,yes,generated vector infographic,course-generated,层级关系适合嵌套结构图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,58,机器学习的基本定义,no,,,,机器学习的基本定义,,720,no,,course-generated,该页以公式说明为主，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,59,监督学习,no,,,,监督学习,,720,no,,course-generated,该页以公式说明为主，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,60,无监督学习,yes,chart,right,assets/generated/ch01/ch01_slide_060_chart.svg,无监督聚类示意,,720,yes,generated vector infographic,course-generated,聚类可视化能直观说明无监督学习
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,61,强化学习,no,,,,强化学习,,720,no,,course-generated,该页以公式说明为主，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,62,深度学习的基本思想,yes,diagram,right,assets/generated/ch01/ch01_slide_062_diagram.svg,深度学习层级特征,,720,yes,generated vector infographic,course-generated,层级特征抽象适合网络示意图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,63,卷积神经网络与显微组织图像,yes,microstructure,right,assets/generated/ch01/ch01_slide_063_microstructure.svg,显微组织CNN识别,,720,yes,generated vector infographic,course-generated,材料图像识别需显微组织实例
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,64,Transformer 与序列/文本数据,yes,diagram,right,assets/generated/ch01/ch01_slide_064_diagram.svg,Transformer自注意力,,720,yes,generated vector infographic,course-generated,自注意力机制适合结构图辅助
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,65,生成式 AI 的基本含义,yes,concept,right,assets/generated/ch01/ch01_slide_065_concept.svg,生成式AI输出类型,,720,yes,generated vector infographic,course-generated,生成式AI输出形态多样
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,66,VAE、GAN 与扩散模型,no,,,,VAE、GAN 与扩散模型,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,67,大语言模型的能力边界,no,,,,大语言模型的能力边界,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,68,AI 代理的基本概念,yes,workflow,center,assets/generated/ch01/ch01_slide_068_workflow.svg,AI代理工具调用,,440,yes,generated vector infographic,course-generated,代理循环需展示观察行动反馈
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,69,AI 代理与普通聊天模型的区别,no,,,,AI 代理与普通聊天模型的区别,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,70,现代 AI 技术谱系总结,no,,,,现代 AI 技术谱系总结,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,71,1.4 小结,no,,,,1.4 小结,,720,no,,course-generated,复习或作业页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,72,1.5 当人工智能遇上材料科学,no,,,,1.5 当人工智能遇上材料科学,,720,no,,course-generated,章节过渡页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,73,材料科学问题的 AI 化,yes,workflow,center,assets/generated/ch01/ch01_slide_073_workflow.svg,材料问题AI化,,440,yes,generated vector infographic,course-generated,问题转化过程适合流程表达
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,74,材料 AI 的典型任务,no,,,,材料 AI 的典型任务,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,75,成分—工艺—组织—性能数据链,yes,workflow,center,assets/generated/ch01/ch01_slide_075_workflow.svg,成分工艺组织性能链,,440,yes,generated vector infographic,course-generated,数据链是材料AI核心逻辑
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,76,材料描述符：让材料可计算,no,,,,材料描述符：让材料可计算,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,77,案例 1：合金强度预测,yes,chart,right,assets/generated/ch01/ch01_slide_077_chart.svg,合金强度预测图,,720,yes,generated vector infographic,course-generated,预测问题适合散点拟合图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,78,案例 2：显微组织图像识别,yes,microstructure,right,assets/generated/ch01/ch01_slide_078_microstructure.svg,显微组织图像识别,,720,yes,generated vector infographic,course-generated,图像识别案例必须有组织图像
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,79,案例 3：增材制造过程监测,yes,photo,right,assets/generated/ch01/ch01_slide_079_photo.svg,增材制造熔池监测,,720,yes,generated vector infographic,course-generated,过程监测需展示真实场景
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,80,案例 4：材料文献挖掘,yes,workflow,center,assets/generated/ch01/ch01_slide_080_workflow.svg,材料文献挖掘流程,,440,yes,generated vector infographic,course-generated,文献到知识抽取适合流程图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,81,案例 5：高通量筛选,yes,workflow,center,assets/generated/ch01/ch01_slide_081_workflow.svg,高通量筛选漏斗,,440,yes,generated vector infographic,course-generated,候选材料筛选具有漏斗结构
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,82,案例 6：反向材料设计,yes,workflow,center,assets/generated/ch01/ch01_slide_082_workflow.svg,反向材料设计,,440,yes,generated vector infographic,course-generated,目标到候选材料需逆向流程图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,83,材料 AI 中的物理约束,yes,diagram,right,assets/generated/ch01/ch01_slide_083_diagram.svg,物理约束机器学习,,720,yes,generated vector infographic,course-generated,物理约束与数据模型关系抽象
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,84,小样本条件下的材料 AI,no,,,,小样本条件下的材料 AI,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,85,多尺度材料模拟与 AI,yes,diagram,center,assets/generated/ch01/ch01_slide_085_diagram.svg,多尺度材料模拟,,440,yes,generated vector infographic,course-generated,多尺度层级需图示串联
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,86,AI for Materials 与 Materials for AI,no,,,,AI for Materials 与 Materials for AI,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,87,材料 AI 的价值边界,no,,,,材料 AI 的价值边界,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,88,1.5 小结,no,,,,1.5 小结,,720,no,,course-generated,复习或作业页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,89,1.6 AI 发展引发的科学、伦理与安全思考,no,,,,1.6 AI 发展引发的科学、伦理与安全思考,,720,no,,course-generated,章节过渡页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,90,AI 可靠性的首要问题：幻觉,yes,concept,right,assets/generated/ch01/ch01_slide_090_concept.svg,AI幻觉风险,,720,yes,generated vector infographic,course-generated,幻觉风险需要直观警示图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,91,数据偏差与模型偏差,yes,diagram,right,assets/generated/ch01/ch01_slide_091_diagram.svg,数据偏差模型偏差,,720,yes,generated vector infographic,course-generated,偏差传递链条适合图示
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,92,外推风险,yes,chart,right,assets/generated/ch01/ch01_slide_092_chart.svg,模型外推风险,,720,yes,generated vector infographic,course-generated,外推风险可用训练域边界展示
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,93,可解释性问题,yes,diagram,right,assets/generated/ch01/ch01_slide_093_diagram.svg,模型可解释性,,720,yes,generated vector infographic,course-generated,解释性需展示特征贡献关系
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,94,可复现性问题,no,,,,可复现性问题,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,95,学术规范：AI 可以做什么,no,,,,学术规范：AI 可以做什么,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,96,学术规范：AI 不能替代什么,no,,,,学术规范：AI 不能替代什么,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,97,数据安全与隐私保护,yes,diagram,right,assets/generated/ch01/ch01_slide_097_diagram.svg,数据隐私保护流程,,720,yes,generated vector infographic,course-generated,隐私保护涉及多环节措施
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,98,网络安全与模型安全,no,,,,网络安全与模型安全,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,99,科学伦理：效率与责任,no,,,,科学伦理：效率与责任,,720,no,,course-generated,文字说明较完整，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,100,材料 AI 的安全边界,yes,diagram,right,assets/generated/ch01/ch01_slide_100_diagram.svg,材料AI安全边界,,720,yes,generated vector infographic,course-generated,安全边界需展示人机审核关系
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,101,1.6 小结,no,,,,1.6 小结,,720,no,,course-generated,复习或作业页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,102,本章总复习：六个核心问题,no,,,,本章总复习：六个核心问题,,720,no,,course-generated,复习或作业页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,103,本章知识框架,yes,diagram,center,assets/generated/ch01/ch01_slide_103_diagram.svg,本章知识框架图,,440,yes,generated vector infographic,course-generated,总框架页适合知识图谱式总结
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,104,课堂讨论题 1,no,,,,课堂讨论题 1,,720,no,,course-generated,复习或作业页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,105,课堂讨论题 2,no,,,,课堂讨论题 2,,720,no,,course-generated,复习或作业页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,106,Python 示例：构造一个材料数据表,no,,,,Python 示例：构造一个材料数据表,,720,no,,course-generated,该页为代码示例，插图会拥挤
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,107,Python 示例：从数据到模型,no,,,,Python 示例：从数据到模型,,720,no,,course-generated,该页为代码示例，插图会拥挤
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,108,Python 示例：解释模型系数,no,,,,Python 示例：解释模型系数,,720,no,,course-generated,该页为代码示例，插图会拥挤
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,109,Python 示例：可视化数据趋势,no,,,,Python 示例：可视化数据趋势,,720,no,,course-generated,该页为代码示例，插图会拥挤
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,110,本章编程作业,no,,,,本章编程作业,,720,no,,course-generated,复习或作业页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,111,作业评分参考,no,,,,作业评分参考,,720,no,,course-generated,该页已有表格，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,112,下一章预告,no,,,,下一章预告,,720,no,,course-generated,复习或作业页，暂不插图
+第1章_人工智能大数据与材料科学概论_100页_Marp.md,113,结束页,no,,,,结束页,,720,no,,course-generated,复习或作业页，暂不插图

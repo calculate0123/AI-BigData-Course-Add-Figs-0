@@ -1,0 +1,133 @@
+﻿md_file,slide_id,slide_title,need_image,image_type,query_cn,query_en,layout,reason,priority,avoid,source_preference,manual_review
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,1,第2章Python数据处理与材料数据预处理,no,,,,,封面页不建议再插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,2,本章学习目标,no,,,,,学习目标页以文字为主,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,3,本章知识主线,yes,diagram,本章数据主线,materials data preprocessing roadmap,center,本章概念层级较多，适合路线图,medium,避免过度装饰科技背景,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,4,课堂导入：为什么先讲数据预处理？,yes,workflow,实验记录到数据表,materials data preprocessing workflow,center,导入问题适合用流程图说明,high,避免空泛AI科技背景,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,5,从材料数据到机器学习样本,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,6,目录,no,,,,,目录页不需要插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,7,2.1 Python科学计算环境简介,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,8,2.1 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,9,Python在科学计算中的定位,yes,diagram,Python科学计算生态,Python scientific computing ecosystem,center,工具生态关系需要图示,medium,避免商业Logo堆砌,generated,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,10,科学计算环境的基本组成,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,11,解释器、包和环境,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,12,Conda与pip的角色,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,13,Jupyter Notebook适合做什么？,yes,screenshot,Jupyter数据分析界面,Jupyter notebook data analysis interface,right,交互式分析可用界面辅助理解,medium,避免真实隐私数据截图,openverse,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,14,脚本文件适合做什么？,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,15,材料数据项目的最小目录结构,no,,,,,目录页不需要插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,16,第一个可运行示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,17,科学计算环境小结,no,,,,,小结页不建议插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,18,2.2 NumPy、Pandas与Matplotlib基础,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,19,2.2 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,20,NumPy：从列表到数组,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,21,数组维度：标量、向量、矩阵、张量,yes,diagram,数组维度示意图,scalar vector matrix tensor diagram,center,维度概念抽象，图示更直观,medium,避免错误维度标注,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,22,材料成分向量示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,23,NumPy向量化计算,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,24,广播机制：数组形状自动匹配,yes,diagram,NumPy广播机制,NumPy broadcasting array shapes,right,广播形状匹配适合示意图,medium,避免复杂代码截图,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,25,NumPy常用统计函数,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,26,Pandas：表格数据的核心工具,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,27,DataFrame的结构,yes,diagram,DataFrame结构,pandas dataframe table structure,right,表格结构可用示意图强化,medium,避免真实数据泄露,generated,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,28,读取CSV和Excel数据,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,29,选择行、列与条件筛选,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,30,新增列：从原始变量到派生特征,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,31,分组统计：按材料类别或工艺分组,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,32,Matplotlib：从数据到图形,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,33,Figure与Axes的概念,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,34,三个工具如何协同？,yes,workflow,NumPy Pandas绘图流程,NumPy pandas matplotlib workflow,center,三工具协同适合流程图,medium,避免商业Logo,generated,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,35,2.2 小结,no,,,,,小结页不建议插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,36,2.3 材料数据类型,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,37,2.3 的学习任务,yes,diagram,材料数据六类型,materials data types diagram,center,多源数据类型适合结构图,high,避免与材料无关图标,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,38,材料数据的“结构—工艺—性能”框架,yes,diagram,成分工艺组织性能链,materials process structure property,center,核心材料数据链需要图示,high,避免科学关系错误,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,39,成分数据：材料最基本的输入,yes,concept,合金成分数据,alloy composition data table,right,成分单位问题可视觉化,medium,避免未授权论文图,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,40,成分数据表的推荐格式,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,41,成分归一化,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,42,wt.% 与 at.% 的转换思想,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,43,wt.% 到 at.% 的Python示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,44,工艺数据：过程决定组织,yes,workflow,材料工艺参数流程,materials processing parameters workflow,center,工艺参数类型较多，适合流程图,medium,避免过度简化工艺机理,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,45,工艺参数的派生特征,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,46,工艺派生特征代码示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,47,组织数据：连接工艺与性能的桥梁,yes,microstructure,材料显微组织特征,metal microstructure descriptors,right,组织数据需要视觉样例,high,避免真实论文图未授权,manual,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,48,组织描述符的数据表,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,49,性能数据：模型预测目标,yes,chart,材料性能曲线,materials property testing chart,right,性能数据常为曲线或多目标,medium,避免无单位坐标图,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,50,性能数据必须记录测试条件,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,51,图像数据：从像素到特征,yes,microstructure,显微图像像素特征,microstructure image pixel tensor,right,图像张量需结合图像示例,high,避免无比例尺显微图,manual,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,52,图像文件与标签表,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,53,谱图数据：曲线型材料数据,yes,chart,XRD谱图示例,XRD pattern spectrum example,right,谱图数据需曲线示例,high,避免未授权实验谱图,manual,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,54,谱图数据处理的基本步骤,yes,workflow,谱图预处理流程,spectrum preprocessing workflow,center,谱图处理步骤适合流程图,high,避免错误峰位解释,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,55,多源材料数据整合,yes,diagram,多源数据整合,materials multimodal data integration,center,多表与文件关系需要结构图,high,避免复杂文件树拥挤,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,56,Pandas合并多张材料数据表,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,57,2.3 小结,no,,,,,小结页不建议插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,58,2.4 数据清洗、缺失值处理、异常值识别,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,59,2.4 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,60,原始数据常见问题清单,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,61,数据清洗的基本流程,yes,workflow,数据清洗流程,data cleaning preprocessing workflow,center,清洗步骤适合流程图,high,避免文字过密流程图,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,62,读取后第一步：快速体检,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,63,列名规范化,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,64,数据类型检查与转换,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,65,重复值检查,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,66,单位一致化,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,67,缺失值的基本识别,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,68,缺失值不是一种情况,yes,diagram,缺失机制示意图,missing data mechanisms diagram,center,缺失机制分类适合示意图,medium,避免误导缺失机制,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,69,缺失值处理策略一：删除,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,70,缺失值处理策略二：简单插补,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,71,缺失值处理策略三：分组插补,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,72,缺失指示变量,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,73,异常值：错误还是重要样本？,yes,concept,异常值判断,outlier error true sample concept,center,异常值需区分错误与真实样本,high,避免简单删除异常值暗示,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,74,单变量异常值：Z-score方法,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,75,单变量异常值：IQR方法,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,76,多变量异常值：马氏距离,yes,chart,马氏距离等高线,Mahalanobis distance contour plot,right,多变量距离用等高线更直观,medium,避免公式标注错误,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,77,多变量异常值代码示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,78,异常值处理的四种方式,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,79,标准化：让变量具有可比尺度,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,80,归一化：压缩到固定范围,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,81,数据泄漏：最容易忽略的错误,yes,diagram,数据泄漏流程,data leakage train test split,center,泄漏风险适合用错误流程说明,high,避免错误训练测试流程,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,82,正确的预处理顺序,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,83,2.4 小结,no,,,,,小结页不建议插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,84,2.5 材料数据可视化与统计描述,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,85,2.5 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,86,描述性统计量,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,87,Pandas描述统计,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,88,直方图：看单变量分布,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,89,箱线图：看离群点和分组差异,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,90,散点图：看变量关系,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,91,相关系数,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,92,相关矩阵计算,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,93,分组均值与误差棒,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,94,成分三元图的思想,yes,chart,三元成分图,ternary composition property plot,center,三元成分空间需图形辅助,high,避免无物理意义配色,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,95,工艺窗口图,yes,chart,增材工艺窗口,additive manufacturing process window,center,工艺窗口适合二维图展示,high,避免不准确工艺边界,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,96,显微组织图像可视化,yes,microstructure,显微组织图像示例,metal microstructure microscopy image,right,图像可视化需真实样例,high,避免无授权显微组织图,manual,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,97,谱图可视化,yes,chart,XRD谱图可视化,XRD spectrum visualization,right,谱图可视化需曲线样例,medium,避免未授权实验数据图,manual,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,98,可视化的科研规范,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,99,2.5 小结,no,,,,,小结页不建议插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,100,2.6 数据质量、数据偏差与模型可靠性,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,101,2.6 的学习任务,yes,diagram,数据可靠性框架,data quality model reliability framework,center,可靠性维度适合框架图,medium,避免空泛科技背景,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,102,数据质量的六个维度,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,103,数据偏差一：选择偏差,yes,concept,选择偏差示意图,selection bias dataset distribution,right,选择偏差抽象，需分布图说明,medium,避免社会偏见类无关图,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,104,数据偏差二：测量偏差,yes,diagram,测量偏差来源,measurement bias materials testing,right,仪器标准差异适合示意图,medium,避免具体品牌仪器Logo,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,105,数据偏差三：标签偏差,yes,microstructure,组织标签偏差,microstructure annotation label bias,right,标签偏差需组织标注示例,high,避免真实论文图未授权,manual,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,106,小样本与高维特征,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,107,外推风险,yes,chart,模型外推风险,machine learning extrapolation risk,center,外推风险适合训练域图示,high,避免错误外推结论,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,108,可靠性检查：训练集覆盖范围,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,109,数据划分与重复样本问题,yes,diagram,分组划分示意图,group split data leakage diagram,center,重复样本泄漏需分组图说明,high,避免错误训练测试箭头,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,110,分组划分示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,111,模型评估指标与数据质量,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,112,数据处理日志,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,113,可复现的数据预处理函数,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,114,数据质量检查清单,yes,workflow,数据质量检查清单,data quality checklist workflow,center,检查清单适合审核流程图,medium,避免过度装饰图标,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,115,2.6 小结,no,,,,,小结页不建议插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,116,综合案例：合金硬度数据预处理流程,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,117,案例背景,yes,workflow,合金硬度预处理案例,alloy hardness preprocessing case,center,综合案例适合任务流程图,medium,避免真实未授权数据表,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,118,第一步：读取与检查,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,119,第二步：统一列名和类型,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,120,第三步：成分合理性检查,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,121,第四步：缺失值处理,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,122,第五步：异常值识别,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,123,第六步：派生特征与保存,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,124,第七步：输出诊断图,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,125,本章知识结构回顾,yes,workflow,本章知识结构图,data preprocessing knowledge structure,center,全章链条适合知识结构图,medium,避免文字过密,generated,yes
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,126,本章关键概念速记,no,,,,,复习页以文字归纳为主,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,127,课堂讨论题,no,,,,,课堂练习或作业页不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,128,本章简单Python编程作业,no,,,,,课堂练习或作业页不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,129,作业具体要求,no,,,,,课堂练习或作业页不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,130,作业参考代码框架,no,,,,,课堂练习或作业页不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,131,作业评价标准,no,,,,,课堂练习或作业页不插图,low,not needed,,no
+第2章_Python数据处理与材料数据预处理_100页_Marp.md,132,第2章结束,no,,,,,小结页不建议插图,low,not needed,,no

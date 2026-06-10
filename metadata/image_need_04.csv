@@ -1,0 +1,132 @@
+﻿md_file,slide_id,slide_title,need_image,image_type,query_cn,query_en,layout,reason,priority,avoid,source_preference,manual_review
+第4章_机器学习与材料性能预测_100页_Marp.md,1,第4章 机器学习与材料性能预测,no,,,,,封面页不建议再插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,2,目录,no,,,,,目录页不需要插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,3,本章学习目标,no,,,,,学习目标页以文字为主,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,4,本章为什么重要,yes,concept,材料机器学习价值,machine learning materials property prediction,right,导入问题适合用概念图引入,high,避免空泛AI科技背景,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,5,4.1 机器学习基本概念与建模流程,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,6,4.1.1 什么是机器学习,yes,concept,机器学习规则对比,machine learning rule programming comparison,right,对比规则编程与数据学习,medium,避免卡通机器人图,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,7,4.1.2 从函数映射理解机器学习,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,8,4.1.3 数据集的数学表示,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,9,4.1.4 材料机器学习的输入与输出,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,10,4.1.5 三类基本学习任务,yes,diagram,监督无监督强化,supervised unsupervised reinforcement learning,center,三类学习任务适合结构图,medium,避免概念边界错误,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,11,4.1.6 回归任务示例,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,12,4.1.7 分类任务示例,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,13,4.1.8 无监督任务示例,yes,chart,材料聚类降维示意,materials clustering dimensionality reduction,right,无监督任务需展示数据结构,medium,避免无关商业数据图,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,14,4.1.9 建模流程总览,yes,workflow,材料机器学习流程,materials machine learning workflow,center,建模流程适合流程图,high,避免过度装饰科技背景,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,15,4.1.10 训练集、验证集和测试集,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,16,4.1.11 损失函数的作用,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,17,4.1.12 从经验拟合到泛化预测,yes,diagram,过拟合泛化示意,overfitting generalization training test error,center,泛化与过拟合需要图示,high,避免错误曲线标注,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,18,4.1.13 机器学习与材料机理的关系,yes,concept,机器学习材料机理,machine learning physics informed materials,right,强调数据与机理互补关系,medium,避免替代机理的误导图,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,19,4.1.14 Python建模流程骨架,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,20,4.1.15 本节小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,21,4.2 特征工程与材料描述符,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,22,4.2.1 为什么需要特征工程,yes,workflow,材料特征工程,materials feature engineering workflow,center,材料对象到特征需流程图,high,避免泛化AI图标堆砌,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,23,4.2.2 材料描述符的层级,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,24,4.2.3 成分描述符：从元素含量开始,yes,diagram,成分描述符示意,composition descriptors materials informatics,right,元素属性加权适合示意图,medium,避免错误元素周期表截图,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,25,4.2.4 混合熵描述符,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,26,4.2.5 工艺描述符,yes,workflow,工艺参数到热历史,processing parameters thermal history,right,工艺描述符需体现过程链条,medium,避免真实论文图未授权,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,27,4.2.6 组织描述符,yes,microstructure,显微组织描述符,metal microstructure descriptors grain size,right,组织描述符需显微图辅助,high,避免未授权论文显微图,manual,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,28,4.2.7 性能与单位的一致性,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,29,4.2.8 类别变量编码,yes,diagram,类别变量编码,categorical variable one hot encoding,right,编码方式适合小示意图,medium,避免复杂表格截图,generated,no
+第4章_机器学习与材料性能预测_100页_Marp.md,30,4.2.9 特征标准化,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,31,4.2.10 特征归一化,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,32,4.2.11 特征交互项,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,33,4.2.12 特征选择的必要性,yes,workflow,特征选择流程,feature selection materials descriptors,center,特征筛选需显示决策步骤,medium,避免把相关性当因果,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,34,4.2.13 相关系数筛选,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,35,4.2.14 多重共线性,yes,chart,多重共线性相关图,multicollinearity correlated features heatmap,right,相关特征可用热图说明,medium,避免无坐标含义图,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,36,4.2.15 数据泄漏：特征工程中的常见错误,yes,workflow,数据泄漏流程,data leakage preprocessing workflow,center,数据泄漏需用流程强调,high,避免错误训练测试流程,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,37,4.2.16 使用 Pipeline 防止泄漏,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,38,4.2.17 matminer 与材料描述符,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,39,4.2.18 本节小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,40,4.3 回归模型,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,41,4.3.1 回归问题的定义,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,42,4.3.2 线性回归模型,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,43,4.3.3 最小二乘估计,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,44,4.3.4 线性回归的材料解释,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,45,4.3.5 岭回归：加入正则化,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,46,4.3.6 岭回归代码示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,47,4.3.7 偏差—方差权衡,yes,chart,偏差方差权衡,bias variance tradeoff curve,center,经典曲线有助于理解,high,避免错误曲线趋势,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,48,4.3.8 随机森林回归,yes,diagram,随机森林结构,random forest regression trees diagram,center,集成树模型适合结构图,medium,避免复杂代码截图,wikimedia,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,49,4.3.9 决策树回归的基本思想,yes,diagram,决策树回归划分,decision tree regression partition,right,特征空间切分需要图示,medium,避免错误阈值标注,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,50,4.3.10 随机森林代码示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,51,4.3.11 随机森林的特征重要性,yes,chart,特征重要性条形图,feature importance bar chart materials,right,特征贡献适合条形图说明,medium,避免把重要性解释为因果,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,52,4.3.12 支持向量回归 SVR,yes,diagram,SVR误差管,support vector regression epsilon tube,center,SVR核心概念需误差管图,high,避免数学符号错误,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,53,4.3.13 SVR 的核函数思想,yes,diagram,RBF核映射,support vector machine RBF kernel,right,核函数思想较抽象,medium,避免复杂公式标注,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,54,4.3.14 SVR 代码示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,55,4.3.15 回归模型对比,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,56,4.3.16 回归误差的物理解释,yes,chart,回归误差工程意义,regression error materials property prediction,right,误差需结合工程尺度理解,medium,避免误差单位缺失,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,57,4.3.17 回归建模常见错误,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,58,4.3.18 本节小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,59,4.4 分类模型,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,60,4.4.1 分类问题的定义,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,61,4.4.2 二分类与多分类,yes,diagram,二分类多分类示意,binary multiclass classification diagram,right,类别任务适合示意图,medium,避免类别符号混乱,generated,no
+第4章_机器学习与材料性能预测_100页_Marp.md,62,4.4.3 逻辑回归：分类中的线性模型,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,63,4.4.4 逻辑回归的材料解释,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,64,4.4.5 逻辑回归代码示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,65,4.4.6 混淆矩阵,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,66,4.4.7 分类指标,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,67,4.4.8 材料分类中的指标选择,yes,diagram,分类误判代价,classification false positive false negative risk,center,误判风险需分类对比图,high,避免混淆FP和FN,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,68,4.4.9 决策树分类,yes,diagram,决策树分类规则,decision tree classification rules,right,分类规则树直观易懂,medium,避免过深复杂树图,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,69,4.4.10 信息熵与分类不确定性,yes,chart,信息熵类别混杂,entropy class impurity illustration,right,熵与类别混杂需图示,medium,避免熵值方向错误,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,70,4.4.11 决策树的优点与风险,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,71,4.4.12 支持向量机分类,yes,diagram,SVM最大间隔,support vector machine maximum margin,center,最大间隔需要几何图示,high,避免支持向量标注错误,wikimedia,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,72,4.4.13 软间隔 SVM,yes,diagram,软间隔SVM,soft margin SVM classification,center,松弛变量适合几何示意,medium,避免公式和图不对应,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,73,4.4.14 SVM 分类代码示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,74,4.4.15 类别不平衡问题,yes,chart,类别不平衡示意,class imbalance materials defect detection,right,类别不平衡适合柱状图,medium,避免误导性比例图,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,75,4.4.16 分类模型对比,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,76,4.4.17 本节小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,77,4.5 聚类、降维与关联规则,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,78,4.5.1 无监督学习的作用,yes,diagram,无监督学习结构,unsupervised learning data structure,center,无标签数据结构需可视化,medium,避免把聚类当真实标签,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,79,4.5.2 K-means 聚类,yes,chart,K均值聚类示意,k means clustering centroid illustration,center,聚类中心与簇结构需图示,high,避免簇数量错误标注,wikimedia,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,80,4.5.3 K-means 使用注意,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,81,4.5.4 K-means 代码示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,82,4.5.5 主成分分析 PCA,yes,chart,PCA投影示意,principal component analysis projection,center,PCA降维适合二维投影图,high,避免主成分解释错误,wikimedia,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,83,4.5.6 PCA 的材料解释,yes,chart,材料PCA散点图,materials descriptor PCA scatter plot,right,材料族群可用PCA图说明,medium,避免无样本来源说明,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,84,4.5.7 PCA 代码示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,85,4.5.8 降维与可视化,yes,chart,降维可视化散点,dimensionality reduction scatter plot,center,降维结果需要视觉呈现,medium,避免过度解释二维图,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,86,4.5.9 关联规则,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,87,4.5.10 关联规则材料案例,yes,diagram,关联规则材料案例,association rules materials data mining,center,规则共现关系适合网络图,medium,避免把共现画成因果,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,88,4.5.11 无监督学习的常见风险,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,89,4.5.12 本节小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,90,4.6 模型评估：误差、泛化、交叉验证,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,91,4.6.1 为什么评估比建模更重要,yes,workflow,模型评估流程,machine learning model evaluation workflow,center,评估逻辑适合流程图,high,避免只突出高精度,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,92,4.6.2 回归评估指标：MAE,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,93,4.6.3 回归评估指标：RMSE,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,94,4.6.4 回归评估指标：$R^2$,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,95,4.6.5 分类评估指标回顾,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,96,4.6.6 留出法评估,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,97,4.6.7 K 折交叉验证,yes,workflow,K折交叉验证,k fold cross validation diagram,center,交叉验证流程必须图示,high,避免折数和流程错误,wikimedia,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,98,4.6.8 交叉验证代码示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,99,4.6.9 交叉验证中的材料数据分组,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,100,4.6.10 超参数调优,yes,workflow,超参数调优流程,hyperparameter tuning grid search workflow,center,调参过程适合流程图,medium,避免测试集调参错误,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,101,4.6.11 网格搜索示例,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,102,4.6.12 学习曲线,yes,chart,学习曲线,learning curve training validation error,center,学习曲线是关键诊断图,high,避免曲线趋势错误,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,103,4.6.13 残差分析,yes,chart,残差分析图,residual plot regression diagnostics,right,残差图能说明模型偏差,medium,避免无坐标标签图,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,104,4.6.14 模型外推风险,yes,diagram,模型外推风险,machine learning extrapolation risk,center,外推风险需训练域示意,high,避免把外推画成可靠区域,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,105,4.6.15 预测区间与不确定性,yes,chart,预测区间示意,prediction interval uncertainty regression,right,预测区间需图形表达,medium,避免置信区间概念混淆,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,106,4.6.16 可靠评估报告模板,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,107,4.6.17 常见不规范表述,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,108,4.6.18 本节小结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,109,4.7 材料性能预测案例,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,110,4.7.1 案例一：强度预测,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,111,4.7.2 强度预测的特征选择,yes,chart,霍尔佩奇关系图,Hall Petch relation grain size strength,right,机理特征适合曲线图,medium,避免真实论文图未授权,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,112,4.7.3 强度预测代码骨架,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,113,4.7.4 案例二：硬度预测,yes,chart,硬度预测散点,hardness prediction scatter plot materials,right,硬度案例适合预测散点图,medium,避免混用硬度标尺,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,114,4.7.5 硬度预测的单位与条件,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,115,4.7.6 案例三：相组成预测,yes,diagram,相组成预测示意,phase composition prediction materials,right,相类别与相分数需图示,high,避免相图概念错误,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,116,4.7.7 相组成预测与相图知识,yes,diagram,相图知识特征,CALPHAD phase diagram machine learning,center,相图知识需专业示意图,high,避免未授权相图截图,manual,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,117,4.7.8 相分类模型代码骨架,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,118,4.7.9 案例四：腐蚀性能预测,yes,chart,腐蚀性能预测,corrosion property prediction materials,right,腐蚀指标适合图表说明,medium,避免环境条件缺失,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,119,4.7.10 腐蚀数据的特殊性,yes,diagram,腐蚀环境变量,corrosion environment variables diagram,right,环境变量影响需结构图,medium,避免与材料无关腐蚀照片,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,120,4.7.11 腐蚀速率转换示意,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,121,4.7.12 综合案例流程,yes,workflow,强度预测综合流程,materials strength prediction workflow,center,综合案例需要完整流程图,high,避免流程缺少验证环节,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,122,4.7.13 综合案例代码框架,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,123,4.7.14 结果解释模板,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,124,4.7.15 章节综合图景,yes,workflow,数据描述符模型决策,data descriptor model validation decision,center,章节主线适合综合流程图,high,避免装饰性科技背景,generated,yes
+第4章_机器学习与材料性能预测_100页_Marp.md,125,4.7.16 本章总结,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,126,4.7.17 思考题,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,127,章节 Python 编程作业,no,,,,,练习或作业页不建议插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,128,作业参考代码骨架,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,129,作业参考代码骨架：模型比较,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,130,参考资料与延伸阅读,no,,,,,小结或结束页不建议插图,low,not needed,,no
+第4章_机器学习与材料性能预测_100页_Marp.md,131,谢谢,no,,,,,小结或结束页不建议插图,low,not needed,,no

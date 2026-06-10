@@ -1,0 +1,2030 @@
+/* @theme am_green */
+
+/* @import 'am_template_annotations';*/
+
+
+:root {
+  --color-code-bg: #f0f9f6;
+  --color-coverbg: #27846a;
+  --color-few: #842741;
+  --color-footer: #8c8c8c;
+  --color-main: #0c2820;
+  --color-much: #2b9376;
+  --color-navbar-bg: #c0ded5;
+  --color-navbar-font: rgb(108, 95, 91);
+  --color-quote: rgba(254, 176, 98, 0.1);
+  --color-title: rgb(255, 255, 255);
+  --color-trans: #55a991;
+  --filter-b: brightness(30%) contrast(70%) grayscale(100%);
+  --filter-c: brightness(0%) contrast(60%) grayscale(80%);
+  --filter-e: brightness(0%) contrast(70%) grayscale(100%);
+}
+
+/* am_template merged for export */
+
+/* ========================================================================
+ * 文件说明：am_template.scss
+ * ------------------------------------------------------------------------
+ * 主题定位：
+ *   - 本文件是 Awesome Marp 系列主题的“结构模板层”。
+ *   - 它定义与颜色无关或弱相关的通用版式规则，例如字体、标题、封面页、
+ *     目录页、分栏、引用框、表格、代码块、导航栏、页脚与字号调节类。
+ *
+ * 与颜色主题文件的关系：
+ *   - am_green.scss、am_blue.scss 等颜色文件通常通过 @import 引入本模板。
+ *   - 本文件大量使用 CSS 变量，如 --color-main、--color-much、--color-title；
+ *     这些变量应由具体颜色主题提供。
+ *   - 因此，修改颜色时优先修改颜色主题；修改结构版式时才修改本文件。
+ *
+ * Marp 主题识别：
+ *   - 第一行的 @theme am_template 主题声明是 Marp/Marpit 识别主题名称的关键指令，
+ *     不应删除。
+ *   - 若作为独立主题使用，Markdown YAML 可写 theme: am_template；
+ *     若作为基础模板使用，通常由 am_green.scss 等二级主题导入。
+ *
+ * 本注释版处理原则：
+ *   - 仅增加说明性注释；
+ *   - 不改动任何原始 CSS 选择器、属性名、属性值或规则顺序；
+ *   - 便于后续按“模块—页面类—具体选择器”理解和维护。
+ * ======================================================================== */
+
+/* ------------------------------------------------------------------------
+ * 0. 基础声明与外部依赖
+ * ------------------------------------------------------------------------
+ * @charset：声明文件编码为 UTF-8，保证中文字体名、中文注释不发生乱码。
+ * @import 'default'：继承 Marp 默认主题，避免重复定义基础幻灯片结构。
+ * FontAwesome：为链接图标、引用框图标、页码箭头、联系方式图标等提供字形。
+ * Charm 字体：主要用于页脚和装饰性文字。
+ * @auto-scaling true：允许 Marp 在内容过多时进行自动缩放，降低页面溢出风险。
+ * ------------------------------------------------------------------------ */
+@charset "UTF-8";
+@import 'default';
+@auto-scaling true;
+
+
+/* ------------------------------------------------------------------------
+ * 1. 全局变量区
+ * ------------------------------------------------------------------------
+ * :root 中定义全局 CSS 变量，是整个主题的参数中心。
+ *
+ * 字体变量：
+ *   --font-family-main   ：正文、普通段落、列表、引用块的默认字体；
+ *   --font-family-title  ：一级到五级标题的字体；
+ *   --font-family-footer ：页脚、装饰性签名文字的字体；
+ *   --font-family-code   ：行内代码、代码块和语法高亮区域的字体。
+ *
+ * 字号变量：
+ *   --font-size-1        ：一级标题字号，通常用于封面页主标题；
+ *   --foot-size-subtitle ：封面副标题字号；
+ *   --font-size-2-3      ：正文页二级/三级标题字号；
+ *   --font-size-4-5      ：页面内小标题字号；
+ *   --font-size-main     ：正文基础字号；
+ *   --font-size-footer   ：页脚字号；
+ *   --font-size-page     ：页码字号；
+ *   --font-size-code     ：代码块基础字号。
+ *
+ * 注意：颜色变量未在本模板中集中声明，而是由 am_green.scss 等颜色主题提供。
+ * ------------------------------------------------------------------------ */
+:root{
+  --font-family-main: 'Latin Modern Math','Adobe Garamond','方正宋刻本秀楷简体','Calibri','楷体','华文中宋','楷体','霞鹜文楷 屏幕阅读版';  
+  --font-family-title: 'Optima LT Medium','Arial','方正苏新诗柳楷简体','黑体'; 
+  --font-family-footer: 'Charm','Calibri','叶根友毛笔行书修正版','方正苏新诗柳楷简体','楷体';
+  --font-family-code: 'Fira Code','HYMingChanKeBen W','Consolas','霞鹜文楷等宽','华文中宋','宋体';
+  --font-size-1: 55px;
+  --foot-size-subtitle: 42px;
+  --font-size-2-3: 38px; 
+  --font-size-4-5: 30px; 
+  --font-size-main: 25px;
+  --font-size-footer: 22px;
+  --font-size-page: 12px;
+  --font-size-code: 22px;
+}
+
+
+
+/* ------------------------------------------------------------------------
+ * 2. 幻灯片基础页面规则
+ * ------------------------------------------------------------------------
+ * Marp 渲染后，每一页幻灯片对应一个 section 元素。
+ * 这里设定全局正文字体、正文颜色、字号和对齐方式，是所有页面类的基础。
+ *
+ * text-align: justify 适合中文教学课件的段落排版，可使正文左右边界更整齐。
+ * 如果页面中存在大量英文或公式，必要时可在具体页面类中覆盖。
+ * ------------------------------------------------------------------------ */
+section {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-main);
+  color: var(--color-main);
+  text-align: justify; 
+  }
+
+/* 一级标题 h1
+ * ------------------------------------------------------------------------
+ * 使用场景：封面页主标题、章节过渡页中极大标题。
+ * 不建议在普通正文页中大量使用 h1，因为 Awesome Marp 常用 h2/h3 触发分页，
+ * 且 h1 的视觉权重更适合封面。 */
+h1 {
+  font-family: var(--font-family-title); 
+  font-size: var(--font-size-1);
+  color: var(--color-title);   
+}  
+
+
+/* 二级/三级标题 h2、h3
+ * ------------------------------------------------------------------------
+ * 使用场景：普通内容页标题。若 Markdown YAML 中设置 headingDivider: [2,3]，
+ * h2 与 h3 往往会触发新的幻灯片页面。 */
+h2,h3 {
+  font-family: var(--font-family-title); 
+  font-size: var(--font-size-2-3);
+  color: var(--color-much);
+}
+
+/* 四级/五级标题 h4、h5
+ * ------------------------------------------------------------------------
+ * 使用场景：页面内部的小标题、局部段落标题或步骤标题。
+ * 其字号小于 h2/h3，避免被误认为新的页面标题。 */
+h4, h5 {
+  font-family: var(--font-family-title); 
+  font-size: var(--font-size-4-5);
+  color: var(--color-much);
+}
+
+/* header 区域
+ * ------------------------------------------------------------------------
+ * Marp 中可通过全局或局部指令 _header 写入页眉内容。
+ * 本规则只设定默认顶部距离，导航栏等特殊页眉样式会在 .navbar 中覆盖。 */
+header {
+  top: 12px;
+}
+
+/* ------------------------------------------------------------------------
+ * 3. 列表基础样式
+ * ------------------------------------------------------------------------
+ * 这里定义普通有序列表和无序列表的缩进、行距和 marker 颜色。
+ * 后续的 toc_a、toc_b、cols2_ol_sq、cols2_ul_ci 等页面类会重新组织列表布局。
+ * ------------------------------------------------------------------------ */
+ol {
+  line-height: 1.4rem;
+  padding-left: 35px; 
+}
+ol li::marker {
+  color: var(--color-much);
+}
+ul {
+  line-height: 1.4rem;
+  padding-left: 35px; 
+}
+
+
+ul>li>ul>li {
+  font-size: 0.9rem;
+}
+ul>li>ul>li>ul>li {
+  font-size: 0.85rem;
+}
+
+ul.a {
+  list-style-type:disc;
+}
+ul.b {
+  list-style-type:circle;
+}
+ul.c {
+  list-style-type:square;
+}
+ul li::marker {
+  color: var(--color-much);
+}
+
+/* ------------------------------------------------------------------------
+ * 4. 普通引用块样式
+ * ------------------------------------------------------------------------
+ * 对 Markdown 的 > 引用块进行卡片式处理：左侧主题色边框、浅色背景、圆角。
+ * 适合放置定义、结论、重要说明。若需要更强的 Callout 效果，可使用
+ * bq-blue、bq-red、bq-green、bq-purple、bq-black 等页面类。
+ * ------------------------------------------------------------------------ */
+blockquote {
+  border-left: 8px solid var(--color-much);
+  padding: 10px 25px;
+  border-radius: 8px;
+  background-color: var(--color-quote);
+  font-size: 0.9rem;
+  font-family: var(--font-family-main);
+}
+
+blockquote strong {
+  font-family: var(--font-family-main);
+}
+
+blockquote>p::before {
+  color: var(--color-much);
+  padding-right: 2%;
+  content: "\f10d"; 
+  font-family: "FontAwesome";
+}
+
+/* ------------------------------------------------------------------------
+ * 5. 链接样式
+ * ------------------------------------------------------------------------
+ * 普通链接沿用正文字体和主题色；悬停时变为强调色并显示下划线。
+ * a::after 会在链接后添加 FontAwesome 图标，用于提示该文本为超链接。
+ * 封面页和最后一页会关闭该图标，避免邮箱、网址等信息过于杂乱。
+ * ------------------------------------------------------------------------ */
+a {
+  font-size: 0.9rem;
+  padding:0 .2rem;
+  color: var(--color-main);
+  font-family: var(--font-family-main);
+}
+a:hover {
+  color: var(--color-much);
+  text-decoration: underline;  
+}
+a::after {
+  font-size: 0.6em;
+  padding-left: 0.5%;
+  content: "\f148"; /* f148 f0c1 f08e f14c f0c6 */
+  font-family: "FontAwesome";
+  color: var(--color-much);
+}
+
+/* ------------------------------------------------------------------------
+ * 6. 页码样式
+ * ------------------------------------------------------------------------
+ * Marp 使用 section::after 承载分页信息。
+ * attr(data-marpit-pagination) 与 attr(data-marpit-pagination-total) 分别读取
+ * 当前页码和总页数；中间的 
+101 来自 FontAwesome，用作箭头分隔符。
+ * ------------------------------------------------------------------------ */
+section::after {
+  font-family: "FontAwesome";
+  font-size: var(--font-size-page);
+  margin-right: -10px;
+  margin-bottom: -14px;
+  content: attr(data-marpit-pagination) "\f101 " attr(data-marpit-pagination-total); 
+  letter-spacing: 3px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  border: 1px solid var(--color-footer);
+  color: var(--color-footer);
+}
+
+/* ------------------------------------------------------------------------
+ * 7. 页脚样式
+ * ------------------------------------------------------------------------
+ * footer 内容可由 Markdown YAML 或局部 _footer 指令提供。
+ * 当前布局采用 flex，使多个 em 片段可以在页脚中横向分布。
+ * ------------------------------------------------------------------------ */
+footer{
+  color: var(--color-footer);
+  bottom: 1%;
+  left: 2%;
+  width: 100%;
+  height: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer>em {
+  font-family: var(--font-family-footer);
+  font-size: var(--font-size-footer);
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+footer::after {
+  content: "";
+}
+
+/* ------------------------------------------------------------------------
+ * 8. 数学公式样式
+ * ------------------------------------------------------------------------
+ * MathJax 是 Marp/Markdown 中常见的数学公式渲染结果。
+ * 这里将公式字体与整体主题字体协调，并为标题内公式单独调整字号。
+ * ------------------------------------------------------------------------ */
+.MathJax { 
+  font-size: 0.95rem;
+}
+
+h2 .MathJax, h3 .MathJax, h4 .MathJax, h3 .MathJax {
+  font-size: 1.5rem;
+}
+
+h4 .MathJax, h5 .MathJax {
+  font-size: 1.2rem;
+}
+
+/* ------------------------------------------------------------------------
+ * 9. 代码块样式
+ * ------------------------------------------------------------------------
+ * pre 对应围栏代码块的外层容器，例如 ```python ... ```。
+ * 本规则控制代码块边框、圆角、内边距、背景色和阴影，适合课堂演示代码。
+ * 具体 token 的颜色由后文 .hljs-* 规则控制。
+ * ------------------------------------------------------------------------ */
+pre {
+  text-align: left;
+  border: 0.3px solid var(--color-few);
+  border-radius: 10px;
+  padding: 28px;
+  line-height: 115%;
+  overflow: auto;  
+  font-size: var(--font-size-footer);
+  font-size: 0.9rem;
+}
+
+*::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: #f6f8fa;  
+}
+*::-webkit-scrollbar-track:hover {
+  background-color: var(--color-few);
+}
+*::-webkit-scrollbar-track:active {
+  background-color: var(--color-few);
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: var(--color-few);
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-few);
+}
+*::-webkit-scrollbar-thumb:active {
+  background-color: var(--color-few);
+}
+  
+/* 行内代码 code
+ * ------------------------------------------------------------------------
+ * 对 Markdown 中的 `inline code` 起作用，也会影响代码块内部的 code。
+ * 使用等宽字体并设置较小字号，使代码与正文有清晰区分。 */
+code {
+  padding: 2px;
+  border-radius: 1px;
+  background-color: var(--color-code-bg);
+  font-family: var(--font-family-code);
+  font-size: 0.8rem;
+  letter-spacing: -1px;
+}
+
+/* 加粗文本 strong
+ * ------------------------------------------------------------------------
+ * Markdown 的 **加粗** 会渲染为 strong。
+ * 此处将其设为主题强调色，用于突出关键词、结论或重点概念。 */
+strong {
+  font-size: 1.03rem;
+  font-weight: bolder;
+  color: var(--color-much);
+}
+st {
+  font-size: 0.9rem;
+  font-style: normal;
+}
+/* 斜体文本 em
+ * ------------------------------------------------------------------------
+ * Markdown 的 *斜体* 会渲染为 em。
+ * 本主题将 em 设计为醒目的主题色粗体，更接近课件中的“强调标注”。 */
+em {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+ins {
+  text-decoration-color: var(--color-much);
+}
+
+/* ------------------------------------------------------------------------
+ * 10. 图片基础样式与对齐约定
+ * ------------------------------------------------------------------------
+ * img 默认不额外处理；通过 alt 文本中的 #l、#r、#c 控制左对齐、右对齐、居中。
+ * 示例：![#c](image.png) 表示居中显示。
+ * ------------------------------------------------------------------------ */
+img {
+  max-width: 95% ;
+  border-radius: 8px;
+  margin: auto;
+}
+
+img[alt*='#l'] {
+    float: left;
+}
+img[alt*='#r'] {
+    float: right;
+}
+img[alt*='#c'] {
+    display: block;
+    margin: auto;
+}
+
+
+/* ------------------------------------------------------------------------
+ * 11. 封面页样式 cover_a
+ * ------------------------------------------------------------------------
+ * 使用方式：在页面前写 <!-- _class: cover_a -->。
+ * 设计特征：标题居中偏上，副标题居中，作者/单位/日期等信息置于下方。
+ * 适合通用课程封面、学术报告封面或讲义首页。
+ * ------------------------------------------------------------------------ */
+section.cover_a {
+  width: 100%;
+  background: linear-gradient(to bottom, var(--color-coverbg) 60%, white 40%);
+  text-align:center; 
+}
+
+section.cover_a h1 {
+  background-color: var(--color-coverbg);
+  vertical-align:middle;   
+  padding: 0px 80px;
+  top: 28%;
+  width: 88%;
+  transform: translateX(-6%);
+  position: absolute;  
+}
+
+section.cover_a h6 {
+  font-family: var(--font-family-title);
+  font-size: var(--foot-size-subtitle);
+  color: var(--color-title);
+  padding: 0px 80px;
+  top: 38%;
+  width: 90%;
+  transform: translateX(-6%);
+  position: absolute;  
+} 
+
+section.cover_a p {
+  bottom: 8%;
+  width: 100%;
+  transform: translateX(-6%);
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+section.cover_a strong {
+  color: var(--color-main);
+}
+
+section.cover_a a::after {
+  content: "";
+}
+
+
+/* ------------------------------------------------------------------------
+ * 12. 封面页样式 cover_e
+ * ------------------------------------------------------------------------
+ * 设计特征：支持 header 与 footer 放置图片，常用于带学校/机构标识的封面。
+ * 其中 header>img 和 footer>img 分别对页眉、页脚图片进行缩放。
+ * ------------------------------------------------------------------------ */
+section.cover_e {
+  width: 100%;
+  background: linear-gradient(108deg, white 70%,  var(--color-coverbg) 30%);
+  text-align: left; 
+}
+
+section.cover_e h1 {
+  top: 28%;
+  width: 70%;
+  transform: translateX(-1.2%);
+  position: absolute;    
+  color: var(--color-much);
+}
+
+section.cover_e h6 {
+  font-family: var(--font-family-title);
+  font-size: var(--foot-size-subtitle);
+  color: var(--color-much);
+  top: 38%;
+  width: 68%;
+  position: absolute;
+} 
+
+section.cover_e p {
+  bottom: 15%;
+  transform: translateX(5%);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+section.cover_e strong {
+  color: var(--color-main);
+}
+
+section.cover_e footer>img {
+  transform: scale(1.2);
+  background-color: rgba(255, 255, 255, 0);
+  background-blend-mode: lighten;
+  filter: brightness(2000%) grayscale(60%);
+} 
+
+section.cover_e header>img {
+  transform: scale(0.88);
+  background-color: rgba(255, 255, 255, 0);
+  background-blend-mode: lighten;
+  filter: brightness(3000%) grayscale(100%);
+} 
+
+section.cover_e a::after {
+  content: "";
+}
+
+section.cover_e footer{
+  height: 128px;
+  width: 26%;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  left: 72%;
+  bottom: 0px;
+}
+
+section.cover_e header {
+  background-color: var(--color-coverbg); 
+  height: 100px; 
+  width: 100px;
+  top: 0px;
+  left: 80px;
+  text-align: center;
+  vertical-align:middle; 
+}
+
+
+/* ------------------------------------------------------------------------
+ * 13. 封面页样式 cover_b
+ * ------------------------------------------------------------------------
+ * cover_b 采用更强的背景色块和居中标题布局；适合希望封面视觉冲击更强的场景。
+ * 该组规则从 h1 开始定义，因此没有单独的 section.cover_b 总规则。
+ * ------------------------------------------------------------------------ */
+section.cover_b h1 {
+  background-color: var(--color-coverbg);
+  padding: 30px;
+  width: auto;
+  height: 26%;
+  top: 15%;
+  right: 5%; 
+  left: 5%;
+  position: absolute;
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+section.cover_b h6 {
+  font-family: var(--font-family-title);
+  font-size: var(--foot-size-subtitle);
+  color: var(--color-title);
+  background-color: var(--color-coverbg);
+  padding-top: 30px;
+  width: auto;
+  height: 13%;
+  top: 33%;
+  right: 5%; 
+  left: 5%;
+  position: absolute;  
+  text-align: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+} 
+
+section.cover_b p {
+  text-align: center; 
+  bottom: 13%;
+  width: 100%;
+  transform: translateX(-6%);
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+section.cover_b strong {
+  color: var(--color-main);
+}
+
+section.cover_b a::after {
+  content: "";
+}
+
+
+/* ------------------------------------------------------------------------
+ * 14. 封面页样式 cover_c
+ * ------------------------------------------------------------------------
+ * 设计特征：顶部 header 可放置 logo，底部 footer 可放置校训或机构标语。
+ * 适合高校课程、学院报告、正式培训材料。
+ * ------------------------------------------------------------------------ */
+section.cover_c {
+  width: 100%;
+  background: linear-gradient(to bottom, white 20%, var(--color-coverbg) 20% 88%, white 88%);
+  text-align: left;
+}
+
+section.cover_c img {
+  background-color: rgba(255, 255, 255, 0);
+  background-blend-mode: lighten;  
+  filter: brightness(0%) contrast(60%) grayscale(80%);
+}
+
+section.cover_c h1 {
+  width: 95%;
+  padding-top: 8%;
+  transform: translateX(0%);
+}
+
+section.cover_c h6 {
+  font-family: var(--font-family-title);
+  font-size: var(--foot-size-subtitle);
+  color: var(--color-title);
+  transform: translateX(1%);
+  margin-top: 0px;  
+  width: 95%;
+}
+
+section.cover_c p {
+  margin-top: 5%;
+  transform: translateX(1.5%);
+  color: var(--color-title);
+}
+
+section.cover_c strong, section.cover_c a  {
+  color: var(--color-title);
+}
+
+section.cover_c a::after {
+  content: "";
+}
+
+section.cover_c footer {
+  font-size: larger;
+  left: 68%;
+  bottom: 30px;
+}
+
+section.cover_c header {
+  background-color: rgba(255, 255, 255, 0);
+  background-blend-mode: lighten;    
+  height: 150px; 
+  width: 380px;
+  text-align: left;
+  padding: 2% 4%;
+}
+
+/* ------------------------------------------------------------------------
+ * 15. 封面页样式 cover_d
+ * ------------------------------------------------------------------------
+ * cover_d 与 cover_c 接近，但更强调底部 footer 文本，适合不需要页眉 logo 的封面。
+ * ------------------------------------------------------------------------ */
+section.cover_d {
+  width: 100%;
+  background-image: linear-gradient(to bottom, white 5%, var(--color-coverbg) 5% 60%, white 60%);
+  text-align: left;
+}
+
+section.cover_d h1 {
+  width: 95%;
+  /* padding-top: 8%; */
+  transform: translateX(0%);
+  position: relative;
+  bottom: 2%;
+}
+
+section.cover_d h6 {
+  font-family: var(--font-family-title);
+  font-size: var(--foot-size-subtitle);
+  color: var(--color-title);
+  transform: translateX(1%);
+  margin-top: 0px;  
+  width: 95%;
+  position: relative;
+  bottom: 0%;
+}
+
+section.cover_d p {
+  position: relative;
+  bottom: -22%;
+  transform: translateX(1.5%);
+}
+
+section.cover_d strong {
+  color: var(--color-main);
+}
+
+section.cover_d a::after {
+  content: "";
+}
+
+section.cover_d footer {
+  font-size: larger;
+  left: 68%;
+  bottom: 30px;
+}
+
+
+/* ------------------------------------------------------------------------
+ * 16. 目录页样式 toc_a
+ * ------------------------------------------------------------------------
+ * 使用方式：<!-- _class: toc_a -->，通常配合 <!-- _header: "CONTENTS" -->。
+ * toc_a 将普通无序列表改造成卡片式目录，左侧序号圆形标识由 ::before 生成。
+ * ------------------------------------------------------------------------ */
+section.toc_a ul {
+  list-style-type: none; 
+  padding: 30px;
+  margin: 30px;
+  position: relative; 
+  border-radius: 0px 0px 20px 20px;
+  border-top: 8px solid var(--color-navbar-font);
+  background-color: white;
+  box-shadow: 3px 3px 25px  rgb(215, 224, 235);
+} 
+
+section.toc_a ul li {
+  counter-increment: toc_a;
+} 
+
+section.toc_a ul li::before {
+  font-family: var(--font-family-title);
+  color:white;
+  content: counter(toc_a);
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width:35px;
+  height:35px;
+  display:inline-flex;
+  position: relative; 
+  align-items:center;
+  justify-content: center;
+  background-color:var(--color-much);
+  border-radius:50%;
+} 
+
+section.toc_a ul li:hover::before {
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
+  -moz-transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg); 
+  -o-transform: rotate(360deg); 
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+}
+
+section.toc_a header {
+  height: 100%;
+  width: 150%;
+  font-family: 'Fira Code';
+  font-weight: bolder;
+  font-size: 1080%;
+  left: -8px;
+  text-align: center;
+  display: flex;
+  line-height: 162px;  
+  -webkit-text-fill-color: transparent;   
+  -webkit-text-stroke: 0.75px var(--color-navbar-font);
+}
+
+
+/* ------------------------------------------------------------------------
+ * 17. 目录页样式 toc_b
+ * ------------------------------------------------------------------------
+ * toc_b 更强调左侧竖向 header 区域，可在 header 中放置“目录/CONTENTS/logo”。
+ * 右侧列表采用块状目录项，适合章节较多的课程型 PPT。
+ * ------------------------------------------------------------------------ */
+section.toc_b {
+  width: 100%;
+  background: linear-gradient(to right, white 6%, var(--color-coverbg) 6% 30%, white 30%);
+}
+
+section.toc_b>ul,section.toc_b>ol {
+  list-style-type: none;
+  display: table;
+  align-items:center;
+  justify-content: center;
+  width: 63%;
+  left: 30%;
+  position: absolute;
+  line-height: 200%;
+} 
+
+section.toc_b ul li {
+  counter-increment: toc_b;
+} 
+
+section.toc_b ul li::before {
+  content: counter(toc_b);
+  margin: 0px 20px 0px 0px;
+  width:35px;
+  height:35px;
+  display:inline-flex;
+  position: relative; 
+  align-items:center;
+  justify-content: center;
+  font-family: var(--font-family-title);
+  background-color:var(--color-much);
+  border-radius:50%;
+  color:white;
+} 
+
+section.toc_b ul li:hover::before {
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
+  -moz-transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg); 
+  -o-transform: rotate(360deg); 
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+} 
+
+section.toc_b header {
+  text-align: center;
+  width: 20%;
+  left: 8%;
+  top: 25%;
+  font-size: var(--font-size-2-3);
+  color: var(--color-title);
+  font-weight: bolder;
+  line-height: 200%;
+  letter-spacing: 3px;
+  font-family: "Fira Code", var(--font-family-main);
+}
+
+section.toc_b img {
+  background-color: rgba(255, 255, 255, 0);
+  background-blend-mode: lighten;  
+  padding-top: 30px;
+  width: 70%;
+  filter: brightness(1000%)  grayscale(100%);
+}
+
+/* ------------------------------------------------------------------------
+ * 18. 毛玻璃列表背景 fglass
+ * ------------------------------------------------------------------------
+ * fglass 为列表添加半透明浅色背景与阴影，常与目录页或分列列表组合使用。
+ * 示例：<!-- _class: cols2_ol_ci fglass -->。
+ * ------------------------------------------------------------------------ */
+section.fglass ul {
+  padding: 20px 20px 20px 60px;
+  margin-left: -25px;
+  border-radius: 0px 0px 20px 20px;
+  border-top: 8px solid var(--color-navbar-font);
+  background-color: white;
+  box-shadow: 1px 1px 12px  rgb(215, 224, 235);
+}
+
+
+
+/* ------------------------------------------------------------------------
+ * 19. 单列序号列表 col1_ol_sq
+ * ------------------------------------------------------------------------
+ * 用于将普通列表渲染为带“方形序号标签”的单列重点列表。
+ * 适合学习目标、课程要求、实验步骤等条目较少但需要突出编号的页面。
+ * ------------------------------------------------------------------------ */
+section.col1_ol_sq h2, section.col1_ol_sq h3 {
+  margin-left: -2%;
+}
+section.col1_ol_sq p {
+  padding-bottom: 1%;
+  margin-left: -1.5%;
+}
+section.col1_ol_sq>ul,section.col1_ol_sq>ul {
+  list-style-type: none;
+  display: table;
+  align-items:center;
+  justify-content: center;
+  line-height: 180%;
+} 
+section.col1_ol_sq ul li {
+  counter-increment: col1_ol_sq;
+} 
+section.col1_ol_sq ul li::before {
+  content: counter(col1_ol_sq);
+  margin: 0px 20px 0px 0px;
+  width:27px;
+  height:27px;
+  display:inline-flex;
+  position: relative; 
+  align-items:center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: var(--font-family-title);
+  background-color:var(--color-much);
+  /* border-radius:50%; */
+  color:white;
+  margin-left: -1.5%;
+} 
+section.col1_ol_sq ul li:hover::before {
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
+  -moz-transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg); 
+  -o-transform: rotate(360deg); 
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+} 
+
+/* ------------------------------------------------------------------------
+ * 20. 单列序号列表 col1_ol_ci
+ * ------------------------------------------------------------------------
+ * 与 col1_ol_sq 类似，但序号标签为圆形，更柔和，适合目录型或概念型列表。
+ * ------------------------------------------------------------------------ */
+section.col1_ol_ci h2, section.col1_ol_ci h3 {
+  margin-left: -2%;
+}
+section.col1_ol_ci p {
+  padding-bottom: 1%;
+  margin-left: -1.5%;
+}
+section.col1_ol_ci>ul,section.col1_ol_ci>ol {
+  list-style-type: none;
+  display: table;
+  align-items:center;
+  justify-content: center;
+  line-height: 180%;
+} 
+section.col1_ol_ci ul li {
+  counter-increment: col1_ol_sq;
+} 
+section.col1_ol_ci ul li::before {
+  content: counter(col1_ol_sq);
+  margin: 0px 20px 0px 0px;
+  width:27px;
+  height:27px;
+  display:inline-flex;
+  position: relative; 
+  align-items:center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: var(--font-family-title);
+  background-color:var(--color-much);
+  border-radius:50%; 
+  color:white;
+  margin-left: -1.5%;
+} 
+section.col1_ol_ci ul li:hover::before {
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
+  -moz-transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg); 
+  -o-transform: rotate(360deg); 
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+} 
+
+/* ------------------------------------------------------------------------
+ * 21. 双列有序列表 cols2_ol_sq
+ * ------------------------------------------------------------------------
+ * 将一个长列表自动分为两列，并为每项添加方形编号。
+ * 适合章节目录、知识点清单或课程内容框架。
+ * ------------------------------------------------------------------------ */
+section.cols2_ol_sq h2, section.cols2_ol_sq h3 {
+  margin-left: -2%;
+}
+
+section.cols2_ol_sq p {
+  padding-bottom: 1%;
+  margin-left: -1.5%;
+}
+
+section.cols2_ol_sq ol, section.cols2_ol_sq ul {
+  left: 1%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7em;
+  list-style-type: none;
+  width: 98%;
+  column-gap: 3em;
+} 
+
+section.cols2_ol_sq ol li, section.cols2_ol_sq ul li {
+  counter-increment: cols2_ol_sq;
+} 
+
+section.cols2_ol_sq ol li::before, section.cols2_ol_sq ul li::before {
+  content: counter(cols2_ol_sq);
+  margin: 0px 20px 0px 0px;
+  width: 30px;
+  height: 30px;
+  display:inline-flex;
+  position: relative; 
+  align-items:center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: var(--font-family-title);
+  background-color:var(--color-much);
+  /* border-radius: 50%; */
+  color:white;
+  margin-left: -8%;
+} 
+
+section.cols2_ol_sq ol li:hover::before, section.cols2_ol_sq ul li:hover::before {
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.7s ease-out;
+  -moz-transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg); 
+  -o-transform: rotate(360deg); 
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+} 
+
+
+/* ------------------------------------------------------------------------
+ * 22. 双列有序列表 cols2_ol_ci
+ * ------------------------------------------------------------------------
+ * 与 cols2_ol_sq 类似，但编号标签采用圆形。
+ * 常用于 AwesomeMarp_green.md 中的目录展示页。
+ * ------------------------------------------------------------------------ */
+section.cols2_ol_ci h2, section.cols2_ol_ci h3 {
+  margin-left: -2%;
+}
+
+section.cols2_ol_ci p {
+  padding-bottom: 1%;
+  margin-left: -1.5%;
+}
+
+section.cols2_ol_ci ol, section.cols2_ol_ci ul {
+  left: 1%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7em;
+  list-style-type: none;
+  width: 98%;
+  column-gap: 3em;
+} 
+
+section.cols2_ol_ci ol li, section.cols2_ol_ci ul li {
+  counter-increment: cols2_ol_ci;
+} 
+
+section.cols2_ol_ci ol li::before, section.cols2_ol_ci ul li::before {
+  content: counter(cols2_ol_ci);
+  margin: 0px 20px 0px 0px;
+  width: 30px;
+  height: 30px;
+  display:inline-flex;
+  position: relative; 
+  align-items:center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: var(--font-family-title);
+  background-color:var(--color-much);
+  border-radius: 50%;
+  color:white;
+  margin-left: -8%;
+} 
+
+section.cols2_ol_ci ol li:hover::before, section.cols2_ol_ci ul li:hover::before {
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.7s ease-out;
+  -moz-transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg); 
+  -o-transform: rotate(360deg); 
+  -ms-transform: rotate(360deg); 
+  transform: rotate(360deg);
+} 
+
+
+/* ------------------------------------------------------------------------
+ * 23. 双列无序列表 cols2_ul_sq
+ * ------------------------------------------------------------------------
+ * 用于无显式编号但仍需两列排布的列表。::before 生成方形装饰符号。
+ * ------------------------------------------------------------------------ */
+section.cols2_ul_sq h2, section.cols2_ul_sq h3 {
+  margin-left: -2%;
+}
+
+section.cols2_ul_sq p {
+  padding-bottom: 1%;
+  margin-left: -1.5%;
+}
+
+section.cols2_ul_sq ul {
+  left: 1%;
+  /* margin-left: -2%; */
+  width: 98%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7em;
+  list-style-type: none;
+  column-gap: 3em;
+} 
+
+section.cols2_ul_sq ul li {
+  display: block;
+  position: relative;
+}
+
+section.cols2_ul_sq ul li:before {
+  content: "";
+  display: inline-flex;
+  position: absolute;
+  top: 1.2em;
+  left: -30px;
+  margin-top: -0.9em;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family-title);
+  background-color: var(--color-much);
+  height: 10px;
+  width: 10px;
+  /* border-radius: 50%; */
+}
+
+/* ------------------------------------------------------------------------
+ * 24. 双列无序列表 cols2_ul_ci
+ * ------------------------------------------------------------------------
+ * 用于两列无序列表，装饰符号为圆形。适合并列概念、应用场景、技术要点。
+ * ------------------------------------------------------------------------ */
+section.cols2_ul_ci h2, section.cols2_ul_ci h3 {
+  /* top: 13%;
+  position: absolute; */
+  margin-left: -2%;
+}
+
+section.cols2_ul_ci p {
+  padding-bottom: 1%;
+  margin-left: -1.5%;
+}
+
+section.cols2_ul_ci ul {
+  left: 1%;
+  /* margin-left: -2%; */
+  width: 98%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7em;
+  list-style-type: none;
+  column-gap: 3em;
+} 
+
+section.cols2_ul_ci ul li {
+  display: block;
+  position: relative;
+}
+
+section.cols2_ul_ci ul li:before {
+  content: "";
+  display: inline-flex;
+  position: absolute;
+  top: 1.2em;
+  left: -30px;
+  margin-top: -0.9em;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family-title);
+  background-color: var(--color-much);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+
+
+/* ------------------------------------------------------------------------
+ * 25. 两栏页面 cols-2
+ * ------------------------------------------------------------------------
+ * 使用方式：<!-- _class: cols-2 -->，正文中放置 <div class=ldiv> 与 <div class=rdiv>。
+ * 左右两栏各占 50%，适合“文字+图片”“概念+案例”“公式+解释”的并列展示。
+ * 若某栏为图片，可使用 limg/rimg 类实现垂直居中。
+ * ------------------------------------------------------------------------ */
+section.cols-2 {
+  overflow: visible;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 90%;
+  grid-template-areas:
+      "slideheading slideheading"
+      "leftpanel    rightpanel";
+}
+
+section.cols-2 h2, section.cols-2 h3 {
+  grid-area: slideheading;
+  font-size: var(--font-size-2-3);
+}
+
+section.cols-2 .ldiv { 
+  grid-area: leftpanel; 
+  margin-top: -5%;
+}
+section.cols-2 .rdiv { 
+  grid-area: rightpanel; 
+  margin-top: -5%;
+}
+section.cols-2 .limg { 
+  grid-area: leftpanel; 
+  margin-top: -5%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.cols-2 .rimg { 
+  grid-area: rightpanel; 
+  margin-top: -5%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+/* ------------------------------------------------------------------------
+ * 26. 三栏页面 cols-3
+ * ------------------------------------------------------------------------
+ * 使用 ldiv、mdiv、rdiv 或 limg、mimg、rimg 组织三栏内容。
+ * 适合并列比较三种方法、三类模型或三个案例。
+ * ------------------------------------------------------------------------ */
+section.cols-3 {
+  overflow: visible;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10% 90%;
+  grid-template-areas:
+      "slideheading slideheading slideheading"
+      "leftpanel    middlepanel  rightpanel";
+}
+
+section.cols-3 h2, section.cols-3 h3 {
+  grid-area: slideheading;
+  font-size: var(--font-size-2-3);
+}
+
+section.cols-3 .ldiv { 
+  grid-area: leftpanel; 
+  margin-top: -5%;
+}
+section.cols-3 .mdiv { 
+  grid-area: middlepanel; 
+  margin-top: -5%;
+}
+section.cols-3 .rdiv { 
+  grid-area: rightpanel; 
+  margin-top: -5%;
+}
+section.cols-3 .limg { 
+  grid-area: leftpanel; 
+  margin-top: -5%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.cols-3 .mimg { 
+  grid-area: middlepanel; 
+  margin-top: -5%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.cols-3 .rimg { 
+  grid-area: rightpanel; 
+  margin-top: -5%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+/* ------------------------------------------------------------------------
+ * 27. 两栏页面 cols-2-73
+ * ------------------------------------------------------------------------
+ * 左栏 70%，右栏 30%。适合左侧放大图、流程图或较长说明，右侧放结论或提示。
+ * ------------------------------------------------------------------------ */
+section.cols-2-73 {
+  overflow: visible;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 10% 90%;
+  grid-template-areas:
+      "slideheading slideheading"
+      "leftpanel    rightpanel";
+}
+
+section.cols-2-73 h2, section.cols-2-73 h3 {
+  grid-area: slideheading;
+  font-size: var(--font-size-2-3);
+}
+
+section.cols-2-73 .ldiv { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+}
+section.cols-2-73 .rdiv { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+}
+section.cols-2-73 .limg { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.cols-2-73 .rimg { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+/* ------------------------------------------------------------------------
+ * 28. 两栏页面 cols-2-64
+ * ------------------------------------------------------------------------
+ * 左栏 60%，右栏 40%。适合正文与图表比例较均衡的教学页面。
+ * ------------------------------------------------------------------------ */
+section.cols-2-64 {
+  overflow: visible;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 10% 90%;
+  grid-template-areas:
+      "slideheading slideheading"
+      "leftpanel    rightpanel";
+}
+
+section.cols-2-64 h2, section.cols-2-64 h3 {
+  grid-area: slideheading;
+  font-size: var(--font-size-2-3);
+}
+
+section.cols-2-64 .ldiv { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+
+}
+section.cols-2-64 .rdiv { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+}
+
+section.cols-2-64 .limg { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.cols-2-64 .rimg { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+/* ------------------------------------------------------------------------
+ * 29. 两栏页面 cols-2-37
+ * ------------------------------------------------------------------------
+ * 左栏 30%，右栏 70%。适合左侧放关键词、纲要或小图，右侧放主体图表/说明。
+ * ------------------------------------------------------------------------ */
+section.cols-2-37 {
+  overflow: visible;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 10% 90%;
+  grid-template-areas:
+      "slideheading slideheading"
+      "leftpanel    rightpanel";
+}
+
+section.cols-2-37 h2, section.cols-2-37 h3 {
+  grid-area: slideheading;
+  font-size: var(--font-size-2-3);
+}
+
+section.cols-2-37 .ldiv { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+}
+section.cols-2-37 .rdiv { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+}
+section.cols-2-37 .limg { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.cols-2-37 .rimg { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+/* ------------------------------------------------------------------------
+ * 30. 两栏页面 cols-2-46
+ * ------------------------------------------------------------------------
+ * 左栏 40%，右栏 60%。适合左侧放定义或步骤，右侧放图、表、案例或推导。
+ * ------------------------------------------------------------------------ */
+section.cols-2-46 {
+  overflow: visible;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 10% 90%;
+  grid-template-areas:
+      "slideheading slideheading"
+      "leftpanel    rightpanel";
+}
+
+section.cols-2-46 h2, section.cols-2-46 h3 {
+  grid-area: slideheading;
+  font-size: var(--font-size-2-3);
+}
+
+section.cols-2-46 .ldiv { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+
+}
+section.cols-2-46 .rdiv { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+}
+
+section.cols-2-46 .limg { 
+  grid-area: leftpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.cols-2-46 .rimg { 
+  grid-area: rightpanel; 
+  margin-top: -2%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+/* ------------------------------------------------------------------------
+ * 31. 上下两行页面 rows-2
+ * ------------------------------------------------------------------------
+ * 使用 tdiv/bdiv 或 timg/bimg 将页面分成上下两块。
+ * 适合“上图下文”“上文下图”或上下两组图像比较。
+ * ------------------------------------------------------------------------ */
+section.rows-2 {
+  overflow: visible;
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: 7% 45% 45%;
+  grid-template-columns: 100%;
+  grid-template-areas:
+      "slideheading"
+      "toppanel"
+      "bottompanel";
+}
+section.rows-2 h2, section.rows-2 h3 {
+  grid-area: slideheading;
+}
+section.rows-2 .tdiv { 
+  grid-area: toppanel; 
+}
+section.rows-2 .bdiv { 
+  grid-area: bottompanel; 
+}
+section.rows-2 .timg { 
+  grid-area: toppanel; 
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.rows-2 .bimg { 
+  grid-area: bottompanel;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+/* ------------------------------------------------------------------------
+ * 32. 品字型页面 pin-3
+ * ------------------------------------------------------------------------
+ * 页面上方为横向 tdiv/timg，下方左右分为 ldiv/rdiv 或 limg/rimg。
+ * 适合“总述 + 两个分支”的结构，例如理论框架 + 两个案例。
+ * ------------------------------------------------------------------------ */
+section.pin-3 {
+  overflow: visible;
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: 7% 42% 48%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+      "slideheading slideheading"
+      "toppanel  toppanel"
+      "leftpanel rightpanel";
+}
+section.pin-3 h2, section.pin-3 h3 {
+  grid-area: slideheading;
+  font-size: var(--font-size-2-3);
+}
+section.pin-3 .tdiv { 
+  grid-area: toppanel; 
+}
+section.pin-3 .ldiv { 
+  grid-area: leftpanel; 
+}
+section.pin-3 .rdiv { 
+  grid-area: rightpanel; 
+}
+section.pin-3 .timg { 
+  grid-area: toppanel; 
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.pin-3 .limg { 
+  grid-area: leftpanel;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+section.pin-3 .rimg { 
+  grid-area: rightpanel;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+
+/* ------------------------------------------------------------------------
+ * 33. 彩色 Callout 引用框
+ * ------------------------------------------------------------------------
+ * bq-blue / bq-red / bq-green / bq-purple / bq-black 将引用块改造成提示框。
+ * 第一段通常作为 Callout 标题，其余段落作为正文。
+ * 适合定义、定理、注意事项、案例说明、课堂讨论问题等。
+ * ------------------------------------------------------------------------ */
+section.bq-blue blockquote, section.bq-red blockquote, section.bq-green blockquote, section.bq-purple blockquote, section.bq-black blockquote {
+  padding: 1%;
+  letter-spacing: 0px;
+  border-left: none;
+  background-color: white;
+}
+
+section.bq-purple blockquote p>strong {
+  color: var(--color-main);
+  font-size: 0.9rem;
+}
+
+
+section.bq-blue blockquote>p::before, section.bq-red blockquote>p::before, section.bq-green blockquote>p::before, section.bq-purple blockquote>p::before, section.bq-black blockquote>p::before {
+  padding-right: 0px;
+  content: "";
+  color: white;
+}
+
+section.bq-blue blockquote>p:nth-child(1), section.bq-red blockquote>p:nth-child(1), section.bq-green blockquote>p:nth-child(1), section.bq-purple blockquote>p:nth-child(1), section.bq-black blockquote>p:nth-child(1) {
+  margin-bottom: -1px;
+  line-height: 2rem;
+  padding: 0.5% 0.5% 0.5% 1.5%;
+  color: white;
+  font-size: 1.03rem;
+}
+
+section.bq-blue blockquote>p:not(:nth-child(1)), section.bq-red blockquote>p:not(:nth-child(1)), section.bq-green blockquote>p:not(:nth-child(1)), section.bq-purple blockquote>p:not(:nth-child(1)), section.bq-black blockquote>p:not(:nth-child(1)) {
+  padding: 1% 2%;
+  background-color: rgb(228, 234, 246);
+}
+
+
+section.bq-blue blockquote>p:nth-child(1) {
+  background-color: rgb(129, 161, 193);
+}
+
+section.bq-red blockquote>p:nth-child(1) {
+  background-color: rgb(191, 97, 106);
+} 
+
+section.bq-green blockquote>p:nth-child(1) {
+  background-color: rgb(172, 206, 141);
+}
+
+section.bq-purple blockquote>p:nth-child(1) {
+  background-color: rgb(180, 142, 173);
+}
+
+section.bq-black blockquote>p:nth-child(1) {
+  background-color: rgb(67, 76, 94);
+}
+
+section.bq-blue blockquote>p:nth-child(1)::before {
+  content: "\f518";
+  padding-right: 2%;
+  font-family: "FontAwesome";
+}
+
+section.bq-red blockquote>p:nth-child(1)::before {
+  content: "\f0eb";
+  padding-right: 2%;
+  font-family: "FontAwesome";
+}
+
+section.bq-green blockquote>p:nth-child(1)::before {
+  content: "\e0bb";
+  padding-right: 2%;
+  font-family: "FontAwesome";
+}
+
+section.bq-purple blockquote>p:nth-child(1)::before {
+  content: "\f7e4";
+  padding-right: 2%;
+  font-family: "FontAwesome";
+}
+
+section.bq-black blockquote>p:nth-child(1)::before {
+  content: "\f5ad";
+  padding-right: 2%;
+  font-family: "FontAwesome";
+}
+
+/* ------------------------------------------------------------------------
+ * 34. 最后一页 lastpage
+ * ------------------------------------------------------------------------
+ * 用于致谢页、联系方式页、课程结束页。
+ * 样式特点：背景色块、居中大标题、联系方式图标列表，并关闭普通页码/链接图标。
+ * ------------------------------------------------------------------------ */
+section.lastpage  {
+  background: linear-gradient(to bottom,white 20%,var(--color-coverbg) 20% 60%,white 55%);
+  padding: 0;
+  display: grid;
+  grid-template-rows: 80% 20%;
+  grid-template-columns: auto;
+  grid-template-areas: 
+      "heading"
+      "icons";
+}
+
+section.lastpage h6 {
+  height: 80px; 
+  margin-bottom: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: var(--font-family-title); 
+  font-size: var(--font-size-1);
+  color: var(--color-title);
+
+  display: grid;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+section.lastpage h6 {
+  grid-area: heading;
+}
+
+section.lastpage .icons {
+  grid-area: icons;
+}
+
+section.lastpage div>ul {
+  font-family: var(--font-family-main);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr;
+  gap: 5em;
+  align-content: center;
+  list-style: none;
+  
+}
+section.lastpage ul>li>ul>li {
+  margin-left: -120px;
+}
+section.lastpage div>ul>li>ul>li {
+  list-style: none;
+}
+
+.fa-envelope, .fa-weixin, .fa-phone-volume, .fa-house {
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+}
+
+section.lastpage a {
+  font-size: var(--font-size-main);
+}
+
+section.lastpage a::after, section.lastpage::after {
+  position: relative;
+  content: "";
+  border: none;
+  color: white;
+}
+
+/* ------------------------------------------------------------------------
+ * 35. 顶部导航栏 navbar
+ * ------------------------------------------------------------------------
+ * 将 Marp 的 header 区域改造成横向导航栏。
+ * 约定：header 中 em 表示普通导航项，strong 表示当前激活项。
+ * 示例：<!-- _class: navbar --> 与 <!-- _header: \ *绪论* **机器学习** *材料应用* -->。
+ * ------------------------------------------------------------------------ */
+section.navbar header {
+  background-color: var(--color-navbar-bg);
+  width: 100%;
+  height: 5%;
+  padding: 6px 0px 3px 0px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-navbar-font);
+  white-space: pre;
+}
+
+section.navbar header>em, section.navbar header>strong,section.navbar header>em>strong {
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: var(--color-navbar-font);
+}
+
+section.navbar header>strong {
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 0px 15px 5px 15px;
+  background-color: white;
+}
+
+section.navbar header::before, section.navbar header::after {
+  content: "";
+}
+
+section.navbar header>em>strong {
+  display: block;
+  width: 400px;
+  text-align: left;
+  margin-left: -20px;
+}
+
+
+/* ------------------------------------------------------------------------
+ * 36. 章节过渡页 trans
+ * ------------------------------------------------------------------------
+ * 用于章节切换或大段内容之间的过渡页。
+ * 通常只放一个 h2 标题，页面背景采用主题强调色，标题居中显示。
+ * ------------------------------------------------------------------------ */
+section.trans  {
+  background-color: var(--color-trans);
+}
+section.trans h2{
+  text-align: center; 
+  color: var(--color-title);
+  font-size: 2rem;
+}
+
+
+/* ------------------------------------------------------------------------
+ * 37. 图表标题 caption
+ * ------------------------------------------------------------------------
+ * 用于给图、表或示意图添加较小字号的说明文字。
+ * Markdown 中可使用 <div class="caption">图1 ...</div>。
+ * ------------------------------------------------------------------------ */
+section.caption .caption {
+  padding-top: 20px;
+  text-align: center;
+  font-size: smaller;
+  color: var(--color-footer);
+}
+
+/* ------------------------------------------------------------------------
+ * 38. 表格样式
+ * ------------------------------------------------------------------------
+ * 对 Markdown 表格进行统一美化：限制最大宽度、压缩字号、设置边框、表头底色、
+ * 斑马纹和单元格内边距。适合课件中的参数表、方法比较表、课程安排表。
+ * ------------------------------------------------------------------------ */
+table {
+  border-collapse: collapse;
+  text-align: center;
+  word-break: initial;
+  font-size: 0.8rem;
+  margin: 0 auto;
+}
+
+table code {
+  font-size: 0.7rem;
+}
+th, thead {
+  height: 40px;
+  border-top: 3px solid var(--color-main);
+  font-size: 105%;
+  padding: 6px;
+}
+th, thead:first-child {
+  border-bottom: 3px solid var(--color-main);
+}
+table tr:nth-child(2n) {
+  background-color: white;
+}
+tbody:last-child {
+  border-bottom: 3px solid var(--color-main)
+}
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td,
+table > tfoot > tr > th,
+table > tfoot > tr > td {
+  border: 0px solid white;
+}
+
+/* ------------------------------------------------------------------------
+ * 39. highlight.js 代码语法高亮
+ * ------------------------------------------------------------------------
+ * Marp 常通过 highlight.js 对围栏代码块进行 token 标注。
+ * .hljs-* 规则分别控制注释、字符串、数字、关键词、变量、内置函数等颜色。
+ * 若希望改变代码高亮配色，可集中修改本区域。
+ * ------------------------------------------------------------------------ */
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  font-size: small;
+}
+.hljs-comment {
+  color: #28a828;
+}
+.hljs-string {
+  color: #fd8f3f;
+}
+.hljs-number {
+  color: rgb(158, 158, 62);
+}
+.hljs-keyword {
+  color: #1111e2;
+}
+.hljs-symbol {
+  color: #ac1212;
+}
+.hljs-variable {
+  color: #fc5fa3;
+}
+.hljs-built_in {
+  color: #960ab9;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-meta {
+  color: #2c2cff;
+}
+.hljs-literal {
+  color: #2c2cff;
+}
+.hljs-name {
+  color: #2c2cff;
+}
+.in-prompt { color: #99bb88; }
+.in-prompt-number { font-weight: bold; }
+.out-prompt { color: #ff9090; }
+.out-prompt-number { font-weight: bold; }
+.inverted { background-color: white; color: #232629; }
+
+/* ------------------------------------------------------------------------
+ * 40. 固定标题页面 fixedtitleA / fixedtitleB
+ * ------------------------------------------------------------------------
+ * fixedtitleA：使标题固定在顶部，正文从上方开始排版，适合内容较多的普通教学页。
+ * fixedtitleB：在 fixedtitleA 基础上添加标题色块，需要正文包裹在 <div class="div"> 中。
+ * ------------------------------------------------------------------------ */
+section.fixedtitleA {
+  justify-content: start;
+}
+section.fixedtitleB {
+  justify-content: start;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-rows: 10% 90%;
+  grid-template-areas: 
+      "slideheading"
+      "content";
+}
+section.fixedtitleB>h2, section.fixedtitleB>h3, section.fixedtitleB>h4, section.fixedtitleB>h5{
+  grid-area: slideheading;
+  position: absolute;
+  padding: 10px;
+  background-color: var(--color-much);
+  color: white;
+  border-radius: 8px;
+  font-size: 1.25rem;
+}
+section.fixedtitleB .div {
+  grid-area: content;
+} 
+section.fixedtitleB code {
+  color: var(--color-much);
+}
+
+/* ------------------------------------------------------------------------
+ * 41. 脚注页面 footnote
+ * ------------------------------------------------------------------------
+ * 将页面分为上方正文区 tdiv 与下方脚注区 bdiv。
+ * bdiv::before 生成分隔线，适合展示参考文献、数据来源或补充说明。
+ * ------------------------------------------------------------------------ */
+section.footnote {
+  display: grid;
+  gap: 0.7em;
+  grid-template-rows: 1fr auto;
+  grid-template-areas: "content" "footnote";
+} 
+section.footnote .tdiv {
+  grid-area: "content"; 
+  justify-content: start;
+}
+section.footnote .tdiv>h2,section.footnote .tdiv>h3,section.footnote .tdiv>h4,section.footnote .tdiv>h5 {
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+section.footnote .bdiv {
+  grid-area: "footnote";
+  font-size: 85%;
+  bottom: 5%;
+}
+section.footnote .bdiv::before {
+  border-top: 1.8px dashed var(--color-coverbg);
+  content: "";
+  display: block;
+  margin-bottom: 1em;
+}
+
+/* ------------------------------------------------------------------------
+ * 42. 字号调节类 tinytext / smalltext / largetext / hugetext
+ * ------------------------------------------------------------------------
+ * 用于局部控制正文、列表、表格、引用块和代码块字号。
+ * tinytext 适合信息密度很高的页面；smalltext 适合普通紧凑页；
+ * largetext 和 hugetext 适合强调页、课堂提问页或少字大图页面。
+ * ------------------------------------------------------------------------ */
+section.tinytext>p, section.tinytext>ul, section.tinytext>ol, section.tinytext>table, section.tinytext>blockquote {
+  font-size: 80%;
+}
+section.tinytext code {
+  font-size: 90%;
+}
+section.tinytext strong {
+  font-size: 100%;
+}
+section.tinytext em {
+  font-size: 90%;
+}
+section.tinytext pre {
+  font-size: 70%;
+}
+section.smalltext>p, section.smalltext>ul, section.smalltext>ol, section.smalltext>table, section.smalltext>blockquote {
+  font-size: 90%;
+}
+section.smalltext code {
+  font-size: 90%;
+}
+section.smalltext strong {
+  font-size: 100%;
+}
+section.smalltext em {
+  font-size: 90%;
+}
+section.smalltext pre {
+  font-size: 80%;
+}
+section.largetext>p, section.largetext>ul, section.largetext>ol, section.largetext>table, section.largetext>blockquote{
+  font-size: 115%;
+}
+section.largetext strong {
+  font-size: 100%;
+}
+section.largetext code {
+  font-size: 90%;
+}
+section.largetext em {
+  font-size: 90%;
+}
+section.largetext pre {
+  font-size: 105%;
+}
+section.hugetext>p, section.hugetext>ul, section.hugetext>ol, section.hugetext>table, section.hugetext>blockquote {
+  font-size: 130%;
+}
+section.hugetext strong {
+  font-size: 100%;
+}
+section.hugetext code {
+  font-size: 90%;
+}
+section.hugetext em {
+  font-size: 90%;
+}
+section.hugetext pre {
+  font-size: 120%;
+}
+
+
+
+
+
+
+
+
+

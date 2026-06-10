@@ -1,0 +1,133 @@
+﻿md_file,slide_id,slide_title,need_image,image_type,query_cn,query_en,layout,reason,priority,avoid,source_preference,manual_review
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,1,第5章 深度学习、多模态AI与显微组织识别,no,,,,,封面页不建议再插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,2,目录,no,,,,,目录页不需要插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,3,本章学习目标,no,,,,,学习目标页以文字为主,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,4,本章知识梯度,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,5,从传统机器学习到深度学习,yes,concept,传统深度学习对比,traditional machine learning deep learning,right,需展示特征工程到表征学习差异,high,避免卡通机器人和空泛科技背景,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,6,材料显微组织识别的基本链条,yes,workflow,显微组织识别链条,microstructure recognition deep learning pipeline,center,该页为完整识别流程，适合流程图,high,避免真实论文图未授权,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,7,5.1 深度学习概述与神经网络基本结构,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,8,5.1 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,9,深度学习的基本定义,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,10,从输入到输出：函数近似观点,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,11,单个神经元：线性组合加非线性,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,12,激活函数的作用,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,13,层与网络：从局部计算到整体映射,yes,diagram,神经网络层级结构,neural network layers feature hierarchy,center,网络层级结构需要图示,medium,避免错误网络连接标注,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,14,前向传播,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,15,Softmax 与类别概率,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,16,损失函数：衡量预测错误,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,17,梯度下降：模型如何学习,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,18,反向传播：自动计算梯度,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,19,深度学习训练流程,yes,workflow,深度学习训练流程,deep learning training workflow,center,训练步骤适合流程化展示,high,避免复杂公式和错误箭头关系,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,20,过拟合：训练好不等于泛化好,yes,chart,过拟合训练曲线,overfitting training validation curve,center,训练与验证误差适合曲线说明,high,避免错误曲线含义标注,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,21,常用正则化方法,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,22,深度学习框架的基本分工,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,23,Python示例：张量形状的意义,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,24,本节小结,no,,,,,小结或作业页不建议插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,25,5.2 卷积神经网络与图像识别 △,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,26,5.2 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,27,图像数据的张量表示,yes,diagram,图像张量表示,image tensor height width channel,right,张量维度抽象，图示更清楚,medium,避免通道维度标错,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,28,显微组织图像的特殊性,yes,microstructure,材料显微组织图像,metal microstructure microscopy image,right,需用显微图像说明材料特殊性,high,避免无授权论文显微图,manual,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,29,卷积操作的直观含义,yes,diagram,卷积核滑动示意,convolution kernel sliding image,center,卷积局部运算适合示意图,high,避免公式文字过多,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,30,二维卷积公式,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,31,卷积层的三个重要超参数,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,32,池化层：降低分辨率与增强鲁棒性,yes,diagram,池化降采样示意,max pooling feature map diagram,right,池化降维和细节损失需图示,medium,避免池化窗口标注错误,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,33,CNN 的典型结构,yes,diagram,CNN网络结构,convolutional neural network architecture,center,CNN层级结构适合网络图,high,避免过于复杂专业架构图,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,34,特征图的材料含义,yes,diagram,CNN特征图,CNN feature maps visualization,center,特征图是视觉概念需图示,high,避免真实论文图未授权,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,35,数据增强：让模型看到合理变化,yes,workflow,图像数据增强,image data augmentation microstructure,center,增强方式需展示前后变化,medium,避免改变组织物理含义的示例,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,36,迁移学习：小样本场景的重要策略,yes,workflow,CNN迁移学习流程,CNN transfer learning workflow,center,迁移学习流程适合框图,medium,避免商业Logo和具体模型版权图,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,37,常见 CNN 架构简表,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,38,残差连接的思想,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,39,显微组织图像分类任务示例,yes,microstructure,钢显微组织分类,steel microstructure classification,right,分类任务需真实组织样例辅助,high,避免无授权论文显微组织图,manual,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,40,图像分类评价指标,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,41,混淆矩阵：看清模型错在哪里,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,42,Python示例：图像标准化,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,43,PyTorch伪代码：一个极简 CNN,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,44,CNN在材料图像中的常见误用,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,45,本节小结,no,,,,,小结或作业页不建议插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,46,5.3 循环神经网络、Transformer 与序列数据,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,47,5.3 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,48,序列数据的统一表示,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,49,RNN 的基本思想,yes,diagram,RNN隐藏状态,recurrent neural network hidden state,center,递归状态传播适合图示,medium,避免时间步箭头错误,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,50,LSTM 与 GRU：缓解长期依赖问题,yes,diagram,LSTM门控结构,LSTM gated recurrent unit diagram,center,门控记忆机制抽象需图示,medium,避免复杂公式和错误门结构,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,51,序列模型的输入输出类型,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,52,注意力机制：让模型选择重要位置,yes,diagram,注意力权重示意,attention mechanism sequence weights,center,注意力选择关键位置需图示,high,避免把注意力解释为因果证明,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,53,Self-Attention 公式,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,54,Transformer 与 RNN 的区别,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,55,位置编码：序列顺序从哪里来？,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,56,谱图也可以看作序列,yes,chart,XRD谱图序列,XRD pattern sequence signal,right,谱图序列概念适合曲线图,medium,避免使用未授权论文谱图,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,57,工艺传感器数据的序列建模,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,58,Python示例：将谱图整理为序列输入,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,59,文本序列：材料文献中的信息抽取,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,60,序列模型常见评价指标,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,61,序列模型在材料场景中的风险,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,62,本节小结,no,,,,,小结或作业页不建议插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,63,5.4 多模态 AI：文本、图像、谱图、结构数据融合 △★,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,64,5.4 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,65,什么是多模态学习？,yes,diagram,多模态学习结构,multimodal learning architecture,center,多模态输入输出需结构图,high,避免模态关系画错,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,66,为什么材料科学需要多模态？,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,67,多模态融合的三种基本方式,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,68,早期融合：特征拼接,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,69,中间融合：各模态先编码,yes,diagram,多模态中间融合,multimodal intermediate fusion architecture,center,各模态编码融合适合系统图,high,避免商业模型Logo,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,70,后期融合：多个模型共同投票,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,71,多模态对齐问题,yes,workflow,多模态样本对齐,multimodal data alignment workflow,center,样本对齐错误风险需流程图,medium,避免过度抽象无材料样本,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,72,嵌入表示：把不同模态放入统一空间,yes,diagram,跨模态嵌入空间,cross modal embedding space,center,统一表示空间需二维示意,medium,避免误导为精确物理坐标,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,73,对比学习的基本思想,yes,diagram,对比学习正负样本,contrastive learning positive negative pairs,center,正负样本关系需结构图,medium,避免公式过密和错误配对,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,74,多模态材料案例 1：图像 + 成分预测硬度,yes,workflow,图像成分硬度融合,image composition hardness prediction,center,案例需展示图像与成分融合,high,避免真实论文图未授权,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,75,多模态材料案例 2：文本 + 图像建立知识库,yes,workflow,图文材料知识库,materials image text knowledge base,center,图文知识库流程适合图示,high,避免真实数据库截图未授权,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,76,多模态材料案例 3：谱图 + 结构数据,yes,workflow,谱图结构相识别,spectrum structure phase identification,center,谱图与结构融合需流程图,high,避免使用未授权实验谱图,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,77,多模态融合中的缺失模态,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,78,Python示例：早期融合特征拼接,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,79,多模态模型评价,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,80,多模态学习的风险,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,81,本节小结,no,,,,,小结或作业页不建议插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,82,5.5 显微组织图像分类、分割与缺陷识别 ★,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,83,5.5 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,84,分类、分割、检测的区别,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,85,显微组织分类：整体标签任务,yes,microstructure,显微组织分类样例,microstructure classification examples,right,整体标签任务需要组织图例,high,避免无授权论文图和标尺信息,manual,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,86,显微组织分割：像素级识别,yes,microstructure,显微组织语义分割,microstructure semantic segmentation mask,center,像素级输出需原图与掩膜对照,high,避免真实论文分割图未授权,manual,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,87,U-Net：材料图像分割常用结构,yes,diagram,U-Net分割结构,U-Net segmentation architecture,center,编码器解码器结构适合图示,high,避免复杂到难以课堂讲解,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,88,分割评价指标：IoU,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,89,分割评价指标：Dice 系数,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,90,缺陷检测：位置与类别任务,yes,microstructure,孔洞裂纹缺陷检测,porosity crack defect detection,right,缺陷检测需展示框和缺陷区域,high,避免无授权工业检测图,manual,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,91,缺陷检测中的类别不平衡,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,92,像素标注与弱监督,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,93,材料图像标注规范,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,94,数据划分：按图像还是按试样？,yes,workflow,试样独立划分,sample wise data split leakage,center,数据泄漏风险需对比流程图,high,避免把patch随机划分画成正确做法,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,95,显微图像预处理步骤,yes,workflow,显微图像预处理,microstructure image preprocessing workflow,center,预处理步骤适合流程图,medium,避免使用含标尺版权图片,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,96,尺度信息：显微图像不可忽略,yes,diagram,像素尺度标定,microscopy pixel size calibration,right,像素与真实尺度关系需图示,medium,避免比例尺和单位标错,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,97,分类案例：热处理组织识别,yes,microstructure,热处理组织识别,heat treatment microstructure classification,right,案例页适合组织样例图,high,避免未授权金相图,manual,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,98,分割案例：双相组织相分数计算,yes,microstructure,双相组织分割,dual phase microstructure segmentation,center,需展示相区分割与相分数,high,避免无授权论文分割图,manual,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,99,缺陷识别案例：增材制造孔隙,yes,microstructure,增材孔隙识别,additive manufacturing porosity detection,right,孔隙检测案例需真实或示意图,high,避免未经授权CT或论文图,manual,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,100,图像分割后的材料统计,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,101,Python示例：由掩膜计算面积分数,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,102,Python示例：简单连通区域统计,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,103,深度模型与传统图像处理的关系,yes,workflow,传统图像处理深度学习,traditional image processing deep learning,center,对比传统与深度流程更直观,medium,避免贬低传统方法的误导图,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,104,组织识别模型部署前检查,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,105,本节小结,no,,,,,小结或作业页不建议插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,106,5.6 深度模型的不确定性与可解释性,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,107,5.6 的学习任务,no,,,,,学习目标页以文字为主,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,108,为什么深度模型需要不确定性？,yes,concept,深度模型风险决策,deep learning uncertainty risk decision,right,可信风险引入需概念图,medium,避免空泛安全科技背景,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,109,两类不确定性,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,110,Softmax 概率的局限,no,,,,,该页以公式说明为主，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,111,校准：概率是否可信？,yes,chart,概率校准曲线,probability calibration reliability diagram,center,校准概念适合可靠性曲线,high,避免错误坐标与含义标注,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,112,MC Dropout：近似估计模型不确定性,yes,diagram,MC Dropout不确定性,MC dropout uncertainty estimation,center,多次预测估计方差需图示,medium,避免将近似结果画成严格后验,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,113,深度集成：多个模型共同判断,yes,diagram,深度集成预测,deep ensemble uncertainty diagram,center,多个模型投票需结构图,medium,避免复杂模型Logo,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,114,不确定性在显微组织识别中的用途,yes,workflow,不确定性专家复核,uncertainty expert review workflow,center,低置信度复核适合闭环流程,high,避免自动决策替代专家的误导,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,115,可解释性：模型依据什么判断？,yes,concept,显微图像关注区域,microstructure model attention regions,right,解释性需展示关注区域概念,high,避免把热力图当因果证明,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,116,Grad-CAM 的基本思想,yes,microstructure,Grad-CAM热力图,Grad-CAM microstructure heatmap,center,公式页需要热力图帮助理解,high,避免使用未授权论文热力图,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,117,可解释性热力图的正确使用,yes,microstructure,可解释热力图示例,explainable AI microstructure heatmap,right,正确使用热力图需示例对照,high,避免伪造为真实实验结论,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,118,数据偏差与模型解释,yes,concept,材料图像数据偏差,microstructure dataset bias illustration,center,偏差来源适合因果链示意,medium,避免过度简化偏差来源,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,119,分布外样本：模型没见过的世界,yes,concept,分布外样本检测,out of distribution microstructure detection,right,分布外风险抽象需图示,medium,避免错误表示训练边界,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,120,主动学习：让不确定性指导标注,yes,workflow,主动学习标注闭环,active learning annotation loop,center,主动学习是闭环流程,high,避免把未标注样本自动视为真值,generated,yes
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,121,可信模型报告应包含什么？,no,,,,,文字说明较完整，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,122,本节小结,no,,,,,小结或作业页不建议插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,123,本章总结与编程作业,no,,,,,章节过渡页，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,124,本章知识图谱,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,125,本章重点公式回顾,no,,,,,该页已有表格，暂不插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,126,编程作业：合成显微图像的分类,no,,,,,小结或作业页不建议插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,127,作业参考代码框架：生成图像,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,128,作业参考代码框架：构造数据集,no,,,,,该页为代码页，插图会造成拥挤,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,129,作业提交要求,no,,,,,小结或作业页不建议插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,130,思考题,no,,,,,小结或作业页不建议插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,131,参考资料与延伸阅读,no,,,,,小结或作业页不建议插图,low,not needed,,no
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md,132,结束页,no,,,,,小结或作业页不建议插图,low,not needed,,no
