@@ -1,0 +1,457 @@
+# Codex Prompt：为《人工智能与大数据》Marp 课件两阶段配图
+
+## 使用前提
+
+请先确认当前工作目录为：
+
+```text
+E:\machine_learning\markdown\AI-BigData-Course-Add-Figs-0
+```
+
+本项目的 Markdown 课件位于：
+
+```text
+E:\machine_learning\markdown\AI-BigData-Course-Add-Figs-0\slides
+```
+
+本项目共有 10 章 Marp Markdown 文件：
+
+```text
+第1章_人工智能大数据与材料科学概论_100页_Marp.md
+第2章_Python数据处理与材料数据预处理_100页_Marp.md
+第3章_贝叶斯定理与概率思维_100页_Marp.md
+第4章_机器学习与材料性能预测_100页_Marp.md
+第5章_深度学习多模态AI与显微组织识别_100页_Marp.md
+第6章_生成式AI大语言模型与提示工程_100页_Marp.md
+第7章_知识库知识图谱与检索增强生成RAG_100页_Marp.md
+第8章_AI代理主动学习与贝叶斯优化_100页_Marp.md
+第9章_大数据平台材料数据库与高通量材料设计_100页_Marp.md
+第10章_可信AI数据安全与综合应用_100页_Marp.md
+```
+
+---
+
+# 第一阶段 Prompt：只生成 image_need_chXX_text1.csv，不下载图片
+
+你是《人工智能与大数据》课程 Marp Markdown 课件的教学插图规划助手。
+请只完成图片需求规划，不下载图片，不修改任何 Markdown 课件文件。
+
+## 1. 总目标
+
+请读取 `slides` 目录下的 10 个 Marp Markdown 文件，按 Marp 分页符 `---` 拆分幻灯片，并逐页判断是否需要插入教学图片。输出 10 个 CSV 文件：
+
+```text
+image_need_ch01_text1.csv
+image_need_ch02_text1.csv
+image_need_ch03_text1.csv
+image_need_ch04_text1.csv
+image_need_ch05_text1.csv
+image_need_ch06_text1.csv
+image_need_ch07_text1.csv
+image_need_ch08_text1.csv
+image_need_ch09_text1.csv
+image_need_ch10_text1.csv
+```
+
+输出位置：
+
+```text
+E:\machine_learning\markdown\AI-BigData-Course-Add-Figs-0\image_need
+```
+
+若 `image_need` 文件夹不存在，请创建。
+
+## 2. 严格分页规则
+
+1. Marp 文件开头的 YAML front matter 不是幻灯片正文，不计入 `slide_id`。
+2. 幻灯片页码 `slide_id` 从 1 开始。
+3. 每一个由单独一行 `---` 分隔出的正文页都必须生成一行。
+4. 不得跳页，不得只处理部分页面。
+5. 如果某页不需要图片，也必须生成一行，并将 `need_image` 填为 `no`。
+6. 不要把代码块内部的 `---` 误判为分页符。
+7. 不要把 YAML front matter 结束符误判为第一页内容。
+8. 需要处理中文文件名和中文标题，统一使用 UTF-8 with BOM 或 UTF-8 编码，保证 Excel 可正常打开。
+
+## 3. 配图判断原则
+
+请优先选择对教学理解有帮助的图片，而不是装饰性图片。
+
+适合配图的页面包括：
+
+1. 抽象概念页：人工智能、大数据、机器学习、深度学习、知识图谱、RAG、主动学习、贝叶斯优化、可信 AI。
+2. 算法机理页：贝叶斯定理、概率分布、监督学习、回归、分类、神经网络、卷积网络、Transformer、注意力机制、生成式模型、向量检索、知识图谱推理。
+3. 材料科学应用页：材料数据流、显微组织识别、相图、材料数据库、高通量计算、材料性能预测、工艺—组织—性能关系。
+4. 工程流程页：数据采集、数据清洗、特征工程、模型训练、模型评估、RAG 流程、AI Agent 工作流、主动学习闭环。
+5. 需要实验或模拟结果支撑的页面：显微组织图像、晶粒组织、相场模拟、CALPHAD 相图、高通量筛选流程、材料数据库界面示意。
+
+不适合配图的页面包括：
+
+1. 封面、目录、过渡页，除非页面明显空旷且需要主题图。
+2. 纯代码页，除非需要流程图或运行结果图。
+3. 已经包含图片的页面，除非原图缺失、占位符无效或图片明显不匹配。
+4. 内容极多的页面，若再加图会严重破坏 4:3 板书式排版。
+5. 只需文字讲解即可理解的定义页。
+
+## 4. CSV 字段
+
+每个 CSV 必须使用以下列名，列名顺序不得改变：
+
+```csv
+chapter,md_file,slide_id,slide_title,need_image,image_priority,image_role,image_type,concept_keywords_zh,concept_keywords_en,search_query_zh,search_query_en,preferred_source_type,avoid_source_type,license_requirement,suggested_caption_zh,insertion_position,layout_hint,reason,existing_image_detected,notes
+```
+
+字段说明：
+
+* `chapter`：`ch01` 到 `ch10`。
+* `md_file`：对应 Markdown 文件名。
+* `slide_id`：从 1 开始的页码。
+* `slide_title`：优先取本页第一个 `#`、`##` 或 `###` 标题；若没有标题，则根据内容概括，长度不超过 30 个汉字。
+* `need_image`：只能填写 `yes` 或 `no`。
+* `image_priority`：只能填写 `high`、`medium`、`low`、`none`。
+* `image_role`：填写图片教学作用，例如 `概念示意`、`算法流程`、`数据流程`、`实验结果`、`模拟结果`、`软件界面`、`材料组织`、`安全合规案例`。
+* `image_type`：填写建议图片类型，例如 `schematic`、`flowchart`、`microscopy`、`simulation`、`database_screenshot`、`algorithm_diagram`、`experimental_result`。
+* `concept_keywords_zh`：中文关键词，用分号分隔。
+* `concept_keywords_en`：英文关键词，用分号分隔。
+* `search_query_zh`：适合中文检索的短查询语句。
+* `search_query_en`：适合英文检索的短查询语句。
+* `preferred_source_type`：优先来源，例如 `official documentation; open educational resource; open access paper; Wikimedia Commons; university course material; government/lab source`。
+* `avoid_source_type`：避免来源，例如 `AI-generated image; stock photo; watermark image; commercial copyrighted slide; low-resolution blog image`。
+* `license_requirement`：建议填写 `prefer CC BY/CC BY-SA/public domain/official reusable image; record attribution`。
+* `suggested_caption_zh`：建议图注，要求中文、简明、可直接用于课件。
+* `insertion_position`：建议填写 `right`、`bottom`、`background_right`、`replace_placeholder`、`after_bullets`、`none`。
+* `layout_hint`：结合 Marp 4:3 板书式排版给出建议，例如 `右侧 40% 宽度`、`底部横向流程图`、`替换原占位图`、`不建议插图`。
+* `reason`：说明为什么需要或不需要图片。
+* `existing_image_detected`：如果本页已有 Markdown 图片语法、HTML img、Marp 背景图语法，填 `yes`，否则填 `no`。
+* `notes`：补充说明。
+
+## 5. 检索词生成要求
+
+1. 每个 `need_image=yes` 的页面必须给出中文和英文检索词。
+2. 英文检索词必须比中文检索词更具体，优先包含学术或技术术语。
+3. 对材料科学页面，英文检索词建议包含：
+
+   * `materials informatics`
+   * `microstructure recognition`
+   * `phase diagram`
+   * `CALPHAD`
+   * `high-throughput materials design`
+   * `composition process microstructure property`
+4. 对算法页面，英文检索词建议包含：
+
+   * `Bayes theorem diagram`
+   * `machine learning workflow`
+   * `neural network architecture`
+   * `Transformer attention mechanism`
+   * `retrieval augmented generation workflow`
+   * `Bayesian optimization active learning loop`
+5. 不得在检索词中要求生成 AI 图；不得使用 `AI generated`、`Midjourney`、`Stable Diffusion`、`DALL-E` 作为正向关键词。
+6. 可在 `avoid_source_type` 中列出上述 AI 生成图来源作为排除对象。
+
+## 6. 质量控制
+
+完成后请执行以下检查：
+
+1. 确认 10 个 CSV 均已生成。
+2. 确认每个 CSV 的行数等于对应 Markdown 文件的幻灯片页数。
+3. 确认所有 `need_image` 只包含 `yes` 或 `no`。
+4. 确认所有 `image_priority` 只包含 `high`、`medium`、`low`、`none`。
+5. 确认所有 `slide_id` 连续，不缺页，不重复。
+6. 确认没有下载任何图片。
+7. 确认没有修改任何 Markdown 文件。
+8. 输出一个汇总表，包含：
+
+   * chapter
+   * md_file
+   * slide_count
+   * yes_count
+   * no_count
+   * csv_path
+
+## 7. 第一阶段最终回复格式
+
+请在最终回复中给出：
+
+1. 已生成的 10 个 CSV 文件路径。
+2. 每章幻灯片总数和 `need_image=yes` 的页数。
+3. 每章前 10 行预览。
+4. 明确说明：本阶段未下载图片，未修改 Markdown 文件。
+5. 列出需要我人工审核的重点：
+
+   * `need_image=yes` 是否过多；
+   * 检索词是否准确；
+   * 已有图片页是否仍需替换；
+   * 材料科学案例是否需要更偏向实验图、模拟图或数据库图。
+
+---
+
+# 第二阶段 Prompt：根据审核后的 CSV 下载图片，不修改 Markdown
+
+你是《人工智能与大数据》课程 Marp Markdown 课件的教学图片检索、下载和归档助手。
+我已经审核了第一阶段生成的 10 个 `image_need_chXX_text1.csv` 文件。请根据这些 CSV 下载图片。
+本阶段只下载图片和生成清单，不修改任何 Markdown 课件文件。
+
+## 1. 输入文件
+
+请读取以下目录中的 CSV：
+
+```text
+E:\machine_learning\markdown\AI-BigData-Course-Add-Figs-0\image_need
+```
+
+文件名为：
+
+```text
+image_need_ch01_text1.csv
+image_need_ch02_text1.csv
+image_need_ch03_text1.csv
+image_need_ch04_text1.csv
+image_need_ch05_text1.csv
+image_need_ch06_text1.csv
+image_need_ch07_text1.csv
+image_need_ch08_text1.csv
+image_need_ch09_text1.csv
+image_need_ch10_text1.csv
+```
+
+只处理 `need_image=yes` 的行。
+`need_image=no` 的行不得下载图片。
+
+## 2. 输出图片目录
+
+请把图片下载到以下结构：
+
+```text
+E:\machine_learning\markdown\AI-BigData-Course-Add-Figs-0\assets\downloaded
+```
+
+目录结构必须为：
+
+```text
+assets/
+  downloaded/
+    ch01/
+      text1/
+    ch02/
+      text1/
+    ch03/
+      text1/
+    ch04/
+      text1/
+    ch05/
+      text1/
+    ch06/
+      text1/
+    ch07/
+      text1/
+    ch08/
+      text1/
+    ch09/
+      text1/
+    ch10/
+      text1/
+```
+
+若目录不存在，请创建。
+不得把图片下载到其他位置。
+
+## 3. 图片来源要求
+
+图片可以是：
+
+1. 描述物理、化学、材料或数据演化规律的示意图。
+2. 实验结果图，如显微组织、材料组织、材料表征图像。
+3. 模拟结果图，如相场模拟、分子动力学、有限元、CALPHAD 相图、数据流模拟示意。
+4. 公开课程资料中的通用教学示意图。
+5. 官方文档、开源项目文档、开放数据库页面、政府/高校/实验室来源图片。
+6. 开放获取论文中的图，但必须记录来源和许可信息。
+
+禁止下载：
+
+1. AI 生成图片。
+2. Midjourney、Stable Diffusion、DALL-E 等生成图。
+3. 明显带水印的商业图库图片。
+4. 低分辨率、压缩严重、无法辨认的图片。
+5. 与页面概念关系弱的装饰图。
+6. 来源不明、无法追踪出处的图片。
+7. 重复图片。
+8. 版权风险明显的商业教材扫描图、付费课件图、付费论文图。
+
+优先来源：
+
+```text
+official documentation
+university open course material
+open access paper with clear license
+Wikimedia Commons
+government or national lab source
+open-source project documentation
+Materials Project / AFLOW / NOMAD / Matminer / Scikit-learn / PyTorch / TensorFlow / Hugging Face official docs
+```
+
+## 4. 检索策略
+
+对每个 `need_image=yes` 的页面：
+
+1. 先读取 `search_query_en`。
+2. 再读取 `search_query_zh`。
+3. 必要时结合 `concept_keywords_en`、`concept_keywords_zh` 改写检索词。
+4. 每页至少尝试 3 组不同检索词。
+5. 对关键页优先寻找更权威来源，而不是随便下载第一张图。
+6. 材料科学相关页面应优先检索：
+
+   * `materials informatics workflow`
+   * `microstructure classification CNN`
+   * `phase-field simulation microstructure`
+   * `CALPHAD phase diagram`
+   * `high throughput materials discovery`
+   * `Materials Project database screenshot`
+7. 贝叶斯、机器学习、深度学习、RAG、Agent 页面应优先检索：
+
+   * `Bayes theorem visual explanation`
+   * `machine learning pipeline diagram`
+   * `neural network architecture diagram`
+   * `Transformer attention mechanism diagram`
+   * `retrieval augmented generation workflow`
+   * `Bayesian optimization active learning loop`
+8. 对每张候选图，判断其教学适配性、清晰度、许可和来源可靠性。
+
+## 5. 下载数量
+
+1. 每个 `need_image=yes` 页面原则上下载 1 张主图。
+2. 对特别重要的综合流程页，可以下载 2 张候选图，但必须在清单中标明 `candidate_rank=1` 和 `candidate_rank=2`。
+3. 对找不到合适图片的页面，不要强行下载低质量图片，应在清单中标记 `download_status=not_found`，并说明原因。
+4. 不得为了凑数下载无关图片。
+
+## 6. 去重规则
+
+必须避免重复下载同一张图。
+
+去重至少包括：
+
+1. URL 规范化去重：
+
+   * 去除 URL tracking 参数；
+   * 同一原图 URL 不重复下载。
+2. 文件哈希去重：
+
+   * 下载后计算 SHA256；
+   * SHA256 相同的文件只保留一份。
+3. 语义去重：
+
+   * 同一张图的不同尺寸版本，只保留分辨率较高且许可更清晰的一张。
+4. 跨章节去重：
+
+   * ch01 到 ch10 全局去重。
+5. 若两页确实需要同一张图，请只保存一次，并在 manifest 中让第二页引用同一 `local_path`。
+
+## 7. 文件命名规则
+
+图片文件名使用：
+
+```text
+chXX_sYYY_rR_short-key.ext
+```
+
+其中：
+
+* `chXX`：章节号，如 `ch03`。
+* `sYYY`：三位页码，如 `s007`。
+* `rR`：候选序号，如 `r1`、`r2`。
+* `short-key`：英文短关键词，只允许小写字母、数字、短横线。
+* `ext`：原始扩展名，优先保留 `.png`、`.jpg`、`.jpeg`、`.webp`、`.svg`。
+
+示例：
+
+```text
+ch03_s012_r1_bayes-theorem-diagram.png
+ch08_s045_r1_bayesian-optimization-loop.jpg
+ch09_s021_r1_materials-project-database.png
+```
+
+## 8. 图片质量检查
+
+下载后必须检查：
+
+1. 文件是否存在。
+2. 文件大小是否大于 10 KB。
+3. 图片能否被正常打开。
+4. 宽度是否建议大于 600 px；流程图或示意图建议宽度大于 900 px。
+5. 图片是否清晰、无明显水印。
+6. 图片是否与页面主题相关。
+7. 图片是否可能为 AI 生成图；疑似 AI 生成图必须删除并重新检索。
+8. SVG 可以保留，但需检查能否被 Marp 或浏览器正常显示。
+
+## 9. 输出清单
+
+请生成总清单：
+
+```text
+E:\machine_learning\markdown\AI-BigData-Course-Add-Figs-0\assets\downloaded\image_download_manifest_text1.csv
+```
+
+字段必须为：
+
+```csv
+chapter,md_file,slide_id,slide_title,need_image,candidate_rank,download_status,local_path,relative_path,file_name,file_ext,file_size_bytes,width_px,height_px,sha256,source_page_url,direct_image_url,source_title,source_author,source_license,attribution_text,search_query_used,image_role,image_type,caption_zh,layout_hint,duplicate_of,quality_notes
+```
+
+其中：
+
+* `download_status` 只能为 `downloaded`、`reused_duplicate`、`not_found`、`skipped_existing_image`、`failed`。
+* `relative_path` 必须是相对项目根目录的路径，例如：
+  `assets/downloaded/ch03/text1/ch03_s012_r1_bayes-theorem-diagram.png`
+* `source_page_url` 必须记录来源网页，而不仅是图片直链。
+* `direct_image_url` 记录图片下载直链。
+* `source_license` 尽量填写明确许可，如 `CC BY 4.0`、`CC BY-SA 4.0`、`public domain`、`official documentation`、`unknown`。
+* `attribution_text` 给出可直接放到课件末尾参考来源页的中文或英文署名信息。
+* `duplicate_of` 若为复用图片，填写被复用的 `relative_path`；否则留空。
+
+## 10. 额外输出
+
+请在每个章节目录下生成章节级清单：
+
+```text
+assets/downloaded/ch01/text1/manifest_ch01_text1.csv
+assets/downloaded/ch02/text1/manifest_ch02_text1.csv
+...
+assets/downloaded/ch10/text1/manifest_ch10_text1.csv
+```
+
+并生成一个去重清单：
+
+```text
+assets/downloaded/duplicate_check_text1.csv
+```
+
+字段：
+
+```csv
+sha256,first_relative_path,reused_by,source_page_url,notes
+```
+
+## 11. 不允许的操作
+
+1. 不得修改 `slides` 目录下任何 Markdown 文件。
+2. 不得插入图片引用语法。
+3. 不得删除原有课件图片。
+4. 不得使用 AI 生成图片。
+5. 不得生成新的 AI 图片。
+6. 不得下载无来源信息的图片。
+7. 不得下载带明显商业水印的图片。
+8. 不得重复下载同一张图。
+
+## 12. 第二阶段最终回复格式
+
+请在最终回复中给出：
+
+1. 每章下载成功数量、复用重复图数量、未找到数量、失败数量。
+2. `image_download_manifest_text1.csv` 路径。
+3. `duplicate_check_text1.csv` 路径。
+4. 每章目录路径。
+5. 明确说明本阶段未修改 Markdown 文件。
+6. 列出需要人工复核的图片：
+
+   * `source_license=unknown` 的图片；
+   * `download_status=not_found` 的页面；
+   * `quality_notes` 中包含 `low confidence`、`possible copyright issue`、`possible AI-generated` 的图片；
+   * 分辨率低于推荐值的图片。

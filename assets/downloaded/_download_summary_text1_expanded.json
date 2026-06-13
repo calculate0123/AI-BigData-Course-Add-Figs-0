@@ -1,0 +1,82 @@
+{
+  "ch01": {
+    "downloaded": 95,
+    "reused_duplicate": 0,
+    "not_found": 0,
+    "failed": 0,
+    "skipped_existing_image": 0,
+    "total": 95
+  },
+  "ch02": {
+    "downloaded": 75,
+    "reused_duplicate": 14,
+    "not_found": 0,
+    "failed": 0,
+    "skipped_existing_image": 0,
+    "total": 89
+  },
+  "ch03": {
+    "downloaded": 94,
+    "reused_duplicate": 14,
+    "not_found": 0,
+    "failed": 0,
+    "skipped_existing_image": 0,
+    "total": 108
+  },
+  "ch04": {
+    "downloaded": 96,
+    "reused_duplicate": 13,
+    "not_found": 0,
+    "failed": 0,
+    "skipped_existing_image": 0,
+    "total": 109
+  },
+  "ch05": {
+    "downloaded": 113,
+    "reused_duplicate": 3,
+    "not_found": 0,
+    "failed": 0,
+    "skipped_existing_image": 0,
+    "total": 116
+  },
+  "ch06": {
+    "downloaded": 100,
+    "reused_duplicate": 8,
+    "not_found": 0,
+    "failed": 0,
+    "skipped_existing_image": 0,
+    "total": 108
+  },
+  "ch07": {
+    "downloaded": 74,
+    "reused_duplicate": 24,
+    "not_found": 0,
+    "failed": 0,
+    "skipped_existing_image": 0,
+    "total": 98
+  },
+  "ch08": {
+    "downloaded": 70,
+    "reused_duplicate": 13,
+    "not_found": 0,
+    "failed": 0,
+    "skipped_existing_image": 0,
+    "total": 83
+  },
+  "ch09": {
+    "downloaded": 90,
+    "reused_duplicate": 7,
+    "not_found": 0,
+    "failed": 0,
+    "skipped_existing_image": 0,
+    "total": 97
+  },
+  "ch10": {
+    "downloaded": 81,
+    "reused_duplicate": 16,
+    "not_found": 0,
+    "failed": 0,
+    "skipped_existing_image": 0,
+    "total": 97
+  }
+}
