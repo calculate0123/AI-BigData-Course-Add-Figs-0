@@ -1,0 +1,10 @@
+{
+  "name": "ai-bigdata-course-static-site",
+  "private": true,
+  "scripts": {
+    "build:site": "node scripts/build-static-site.mjs"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.4.1"
+  }
+}
